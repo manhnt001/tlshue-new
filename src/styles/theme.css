@@ -1,0 +1,153 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  
+  /* Imperial Palette */
+  --hue-gold: #C89B3C;
+  --hue-purple: #4B2E83;
+  --hue-ivory: #F7F3EB;
+  --hue-charcoal: #1C1C1C;
+
+  --background: var(--hue-ivory);
+  --foreground: var(--hue-charcoal);
+  --card: #ffffff;
+  --card-foreground: var(--hue-charcoal);
+  --popover: #ffffff;
+  --popover-foreground: var(--hue-charcoal);
+  
+  --primary: var(--hue-gold);
+  --primary-foreground: #ffffff;
+  --secondary: var(--hue-purple);
+  --secondary-foreground: #ffffff;
+  
+  --muted: #E8E2D2;
+  --muted-foreground: #6B655A;
+  --accent: #E8E2D2;
+  --accent-foreground: var(--hue-charcoal);
+  
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(28, 28, 28, 0.1);
+  --input: rgba(28, 28, 28, 0.15);
+  --input-background: #ffffff;
+  --switch-background: #cbced4;
+  
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: var(--hue-gold);
+  --radius: 0.75rem;
+
+  /* Fonts */
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-number: 'Lora', serif;
+}
+
+.dark {
+  --background: var(--hue-charcoal);
+  --foreground: var(--hue-ivory);
+  --card: #2A2A2A;
+  --card-foreground: var(--hue-ivory);
+  --popover: #2A2A2A;
+  --popover-foreground: var(--hue-ivory);
+  
+  --primary: var(--hue-gold);
+  --primary-foreground: #1C1C1C;
+  --secondary: var(--hue-purple);
+  --secondary-foreground: #ffffff;
+  
+  --muted: #333333;
+  --muted-foreground: #A1A1A1;
+  --accent: #333333;
+  --accent-foreground: var(--hue-ivory);
+  
+  --border: rgba(247, 243, 235, 0.1);
+  --input: rgba(247, 243, 235, 0.15);
+  --ring: var(--hue-gold);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+
+  --color-hue-gold: var(--hue-gold);
+  --color-hue-purple: var(--hue-purple);
+  --color-hue-ivory: var(--hue-ivory);
+  --color-hue-charcoal: var(--hue-charcoal);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-number: var(--font-number);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight;
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    line-height: 1.2;
+    @media (min-width: 768px) { font-size: var(--text-5xl); }
+    @media (min-width: 1024px) { font-size: var(--text-6xl); }
+  }
+
+  h2 {
+    font-size: var(--text-3xl);
+    line-height: 1.3;
+    @media (min-width: 768px) { font-size: var(--text-4xl); }
+  }
+
+  h3 {
+    font-size: var(--text-2xl);
+    line-height: 1.4;
+    @media (min-width: 768px) { font-size: var(--text-3xl); }
+  }
+
+  h4 {
+    font-size: var(--text-xl);
+    line-height: 1.5;
+  }
+
+  p, label, button, input {
+    @apply font-sans;
+  }
+}
