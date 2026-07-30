@@ -34,9 +34,6 @@ export function Navbar() {
           <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-serif font-bold text-lg group-hover:scale-105 transition-transform">
             H
           </div>
-          <span className={`font-serif text-xl font-bold tracking-wide ${isScrolled ? "text-foreground" : "text-white"}`}>
-            Di Sản Huế
-          </span>
         </a>
 
         {/* Desktop Nav */}
