@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import logoImg from "../../img/logo.webp";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,9 +32,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-serif font-bold text-lg group-hover:scale-105 transition-transform">
-            H
-          </div>
+          <img src={logoImg} alt="Logo" className="h-10 w-auto object-contain group-hover:scale-105 transition-transform" />
         </a>
 
         {/* Desktop Nav */}

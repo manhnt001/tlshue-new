@@ -1,16 +1,12 @@
 /// <reference path="../../types/react-responsive-masonry.d.ts" />
 import { useState } from "react";
 import { motion } from "motion/react";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { Maximize2, Info } from "lucide-react";
 import { SectionHeader } from "./ui/SectionHeader";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { exhibitionData } from "../data/exhibition";
 import { PanoModal } from "./PanoModal";
 import { DetailModal } from "./DetailModal";
-
-const COLUMNS_BREAKPOINTS = { 350: 1, 768: 2, 1024: 3 };
-const GUTTER_BREAKPOINTS = { 350: "20px", 768: "24px", 1024: "24px" };
 
 function ExhibitionCard({ panel, index, onPanoClick, onDetailClick }: { panel: any; index: number; onPanoClick: () => void; onDetailClick: () => void }) {
   const [isActive, setIsActive] = useState(false);
@@ -77,6 +73,17 @@ function ExhibitionCard({ panel, index, onPanoClick, onDetailClick }: { panel: a
     </motion.div>
   );
 }
+function SectionDivider({ title }: { title: string }) {
+  return (
+    <div className="flex items-center justify-center gap-4 mt-12 mb-6 first:mt-0">
+      <div className="h-[1px] w-12 md:w-24 bg-gradient-to-r from-transparent to-primary/50"></div>
+      <h3 className="text-primary font-serif text-lg md:text-xl tracking-[0.15em] uppercase text-center">
+        {title}
+      </h3>
+      <div className="h-[1px] w-12 md:w-24 bg-gradient-to-l from-transparent to-primary/50"></div>
+    </div>
+  );
+}
 
 export function ExhibitionSection() {
   const [activePanoIndex, setActivePanoIndex] = useState<number | null>(null);
@@ -92,22 +99,84 @@ export function ExhibitionSection() {
           className="mb-16 text-white"
         />
 
-        <ResponsiveMasonry
-          columnsCountBreakPoints={COLUMNS_BREAKPOINTS}
-          gutterBreakPoints={GUTTER_BREAKPOINTS}
-        >
-          <Masonry>
-            {exhibitionData.map((panel, index) => (
-              <ExhibitionCard
-                key={panel.id}
-                panel={panel}
-                index={index}
-                onPanoClick={() => setActivePanoIndex(index)}
-                onDetailClick={() => setActiveDetailIndex(index)}
-              />
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
+        <div className="flex flex-col gap-8 md:gap-12">
+          
+          <div>
+            <SectionDivider title="Khu Vực Mở Đầu" />
+            <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+              {exhibitionData.slice(0, 2).map((panel, i) => {
+                const index = i;
+                return (
+                  <div key={panel.id} className="w-full sm:w-[calc(50%-12px)] md:w-[calc(25%-24px)]">
+                    <ExhibitionCard
+                      panel={panel}
+                      index={index}
+                      onPanoClick={() => setActivePanoIndex(index)}
+                      onDetailClick={() => setActiveDetailIndex(index)}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div>
+            <SectionDivider title="Phần I: Kiến Trúc Cung Đình" />
+            <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+              {exhibitionData.slice(2, 5).map((panel, i) => {
+                const index = i + 2;
+                return (
+                  <div key={panel.id} className="w-full sm:w-[calc(50%-12px)] md:w-[calc(25%-24px)]">
+                    <ExhibitionCard
+                      panel={panel}
+                      index={index}
+                      onPanoClick={() => setActivePanoIndex(index)}
+                      onDetailClick={() => setActiveDetailIndex(index)}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div>
+            <SectionDivider title="Phần II: Đời Sống Hoàng Tộc" />
+            <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+              {exhibitionData.slice(5, 9).map((panel, i) => {
+                const index = i + 5;
+                return (
+                  <div key={panel.id} className="w-full sm:w-[calc(50%-12px)] md:w-[calc(25%-24px)]">
+                    <ExhibitionCard
+                      panel={panel}
+                      index={index}
+                      onPanoClick={() => setActivePanoIndex(index)}
+                      onDetailClick={() => setActiveDetailIndex(index)}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div>
+            <SectionDivider title="Phần III: Giá Trị & Bảo Tồn" />
+            <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+              {exhibitionData.slice(9, 13).map((panel, i) => {
+                const index = i + 9;
+                return (
+                  <div key={panel.id} className="w-full sm:w-[calc(50%-12px)] md:w-[calc(25%-24px)]">
+                    <ExhibitionCard
+                      panel={panel}
+                      index={index}
+                      onPanoClick={() => setActivePanoIndex(index)}
+                      onDetailClick={() => setActiveDetailIndex(index)}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Modals */}

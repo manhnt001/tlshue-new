@@ -36,7 +36,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
       thumbUrl: url,
       title: `${panel.title} - Hồ sơ ${idx + 1}`,
       leadText: idx === 0 ? panel.description : undefined,
-      bodyText: panel.description,
+      // bodyText: panel.description,
       images: [url]
     }));
   }, [panel]);
@@ -150,9 +150,9 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
             transition={{ duration: 0.2, ease: "easeOut" }}
             className="relative w-full max-w-4xl h-[88vh] max-h-[750px] flex flex-col rounded-2xl overflow-hidden border border-white/15 bg-[#141414] text-white shadow-[0_25px_70px_rgba(0,0,0,0.85)] transform-gpu will-change-transform"
           >
-            
+
             {/* Phủ hiệu ứng nền mờ nhẹ nhàng */}
-            <div 
+            <div
               className="absolute inset-0 bg-cover bg-center opacity-10 pointer-events-none mix-blend-overlay"
               style={{ backgroundImage: "url('https://images.unsplash.com/photo-1564399579883-451a5d44ec08?q=80&w=1200')" }}
             />
@@ -185,7 +185,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
 
             {/* MAIN STAGE CONTAINER (Bao gồm 2 nút Prev/Next THU NHỎ CỐ ĐỊNH + Khung cuộn nội dung) */}
             <div className="relative flex-1 flex flex-col min-h-0 z-20 overflow-hidden">
-              
+
               {/* Nút Prev THU NHỎ GỌN NHẸ (w-9 h-9 sm:w-10 sm:h-10) VỚI VIỀN VÀNG HOÀNG GIA KHI HOVER */}
               <button
                 onClick={prevSlide}
@@ -211,176 +211,175 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
               >
                 {isReady && (
                   <div className="max-w-3xl mx-auto space-y-6 sm:space-y-8 px-2 sm:px-4">
-                  
-                  {/* Slide Title */}
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-[#C89B3C] leading-snug">
-                    {currentSlide.title}
-                  </h3>
 
-                  {/* Lead Text / Description */}
-                  {currentSlide.leadText && (
-                    <p className="text-[#F7F3EB]/95 text-base sm:text-lg leading-relaxed font-normal">
-                      {currentSlide.leadText}
-                    </p>
-                  )}
+                    {/* Slide Title */}
+                    <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-[#C89B3C] leading-snug">
+                      {currentSlide.title}
+                    </h3>
 
-                  {/* Quote if exists */}
-                  {currentSlide.quote && (
-                    <blockquote className="border-l-3 border-[#C89B3C] pl-5 py-3 italic text-[#C89B3C] text-base sm:text-lg bg-[#C89B3C]/10 rounded-r-lg font-serif">
-                      "{currentSlide.quote}"
-                    </blockquote>
-                  )}
+                    {/* Lead Text / Description */}
+                    {currentSlide.leadText && (
+                      <p className="text-[#F7F3EB]/95 text-base sm:text-lg leading-relaxed font-normal">
+                        {currentSlide.leadText}
+                      </p>
+                    )}
 
-                  {/* STACKED IMAGES LIST (Mảng các ảnh tư liệu xếp dải dọc) */}
-                  {currentImagesList.length > 0 && (
-                    <div className="space-y-6 pt-2">
-                      {currentImagesList.map((img, idx) => (
-                        <figure
-                          key={idx}
-                          onClick={() => setLightboxImage(img)}
-                          className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C]"
-                        >
-                          <ImageWithFallback
-                            src={img.url}
-                            alt={img.caption || `Ảnh ${idx + 1}`}
-                            className="w-full max-h-[500px] object-contain mx-auto rounded-lg"
-                          />
-                          
-                          {/* Zoom hint overlay */}
-                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span className="px-4 py-2 rounded-full bg-[#C89B3C] text-black font-semibold text-xs flex items-center gap-1.5 shadow-lg">
-                              <Maximize2 size={14} /> Bấm để soi ảnh phóng to
-                            </span>
-                          </div>
+                    {/* Quote if exists */}
+                    {currentSlide.quote && (
+                      <blockquote className="border-l-3 border-[#C89B3C] pl-5 py-3 italic text-[#C89B3C] text-base sm:text-lg bg-[#C89B3C]/10 rounded-r-lg font-serif">
+                        "{currentSlide.quote}"
+                      </blockquote>
+                    )}
 
-                          {/* Caption & Source under image */}
-                          {(img.caption || img.source) && (
-                            <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
-                              {img.caption && <p className="text-white/95 font-medium">{img.caption}</p>}
-                              {img.source && <p className="text-[#C89B3C]/70 italic">Nguồn: {img.source}</p>}
-                            </figcaption>
-                          )}
-                        </figure>
-                      ))}
-                    </div>
-                  )}
+                    {/* STACKED IMAGES LIST (Mảng các ảnh tư liệu xếp dải dọc) */}
+                    {currentImagesList.length > 0 && (
+                      <div className="space-y-6 pt-2">
+                        {currentImagesList.map((img, idx) => (
+                          <figure
+                            key={idx}
+                            onClick={() => setLightboxImage(img)}
+                            className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C]"
+                          >
+                            <ImageWithFallback
+                              src={img.url}
+                              alt={img.caption || `Ảnh ${idx + 1}`}
+                              className="w-full h-[250px] sm:h-[400px] md:h-[500px] object-contain mx-auto rounded-lg"
+                            />
 
-                  {/* Extra Sections if exists */}
-                  {currentSlide.sections && currentSlide.sections.length > 0 && (
-                    <div className="space-y-8 pt-6 border-t border-white/10">
-                      {currentSlide.sections.map((sec, sIdx) => {
-                        const secImages = (sec.images || []).map((img, iIdx) =>
-                          typeof img === "string" ? { url: img, caption: `Hình ảnh ${sIdx + 1}.${iIdx + 1}` } : img
-                        );
-                        return (
-                          <div key={sIdx} className="space-y-4">
-                            {sec.title && (
-                              <h4 className="text-lg sm:text-xl font-serif text-[#C89B3C] font-bold">
-                                {sec.title}
-                              </h4>
+                            {/* Zoom hint overlay */}
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                              <span className="px-4 py-2 rounded-full bg-[#C89B3C] text-black font-semibold text-xs flex items-center gap-1.5 shadow-lg">
+                                <Maximize2 size={14} /> Bấm để soi ảnh phóng to
+                              </span>
+                            </div>
+
+                            {/* Caption & Source under image */}
+                            {(img.caption || img.source) && (
+                              <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
+                                {img.caption && <p className="text-white/95 font-medium">{img.caption}</p>}
+                                {img.source && <p className="text-[#C89B3C]/70 italic">Nguồn: {img.source}</p>}
+                              </figcaption>
                             )}
-                            {sec.text && (
-                              <p className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed">
-                                {sec.text}
-                              </p>
-                            )}
-                            {secImages.length > 0 && (
-                              <div className="space-y-6 pt-2">
-                                {secImages.map((img, iIdx) => (
-                                  <figure
-                                    key={iIdx}
-                                    onClick={() => setLightboxImage(img)}
-                                    className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C]"
-                                  >
-                                    <ImageWithFallback
-                                      src={img.url}
-                                      alt={img.caption || `Hình ${sIdx + 1}.${iIdx + 1}`}
-                                      className="w-full max-h-[500px] object-contain mx-auto rounded-lg"
-                                    />
-                                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                      <span className="px-4 py-2 rounded-full bg-[#C89B3C] text-black font-semibold text-xs flex items-center gap-1.5 shadow-lg">
-                                        <Maximize2 size={14} /> Bấm để soi ảnh phóng to
-                                      </span>
-                                    </div>
-                                    {(img.caption || img.source) && (
-                                      <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
-                                        {img.caption && <p className="text-white/95 font-medium">{img.caption}</p>}
-                                        {img.source && <p className="text-[#C89B3C]/70 italic">Nguồn: {img.source}</p>}
-                                      </figcaption>
-                                    )}
-                                  </figure>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  )}
+                          </figure>
+                        ))}
+                      </div>
+                    )}
 
-                  {/* Body Text if exists */}
-                  {currentSlide.bodyText && (
-                    <div className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed whitespace-pre-line pt-4 border-t border-white/10">
-                      {currentSlide.bodyText}
-                    </div>
-                  )}
+                    {/* Extra Sections if exists */}
+                    {currentSlide.sections && currentSlide.sections.length > 0 && (
+                      <div className="space-y-8 pt-6 border-t border-white/10">
+                        {currentSlide.sections.map((sec, sIdx) => {
+                          const secImages = (sec.images || []).map((img, iIdx) =>
+                            typeof img === "string" ? { url: img, caption: `Hình ảnh ${sIdx + 1}.${iIdx + 1}` } : img
+                          );
+                          return (
+                            <div key={sIdx} className="space-y-4">
+                              {sec.title && (
+                                <h4 className="text-lg sm:text-xl font-serif text-[#C89B3C] font-bold">
+                                  {sec.title}
+                                </h4>
+                              )}
+                              {sec.text && (
+                                <p className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed">
+                                  {sec.text}
+                                </p>
+                              )}
+                              {secImages.length > 0 && (
+                                <div className="space-y-6 pt-2">
+                                  {secImages.map((img, iIdx) => (
+                                    <figure
+                                      key={iIdx}
+                                      onClick={() => setLightboxImage(img)}
+                                      className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C]"
+                                    >
+                                      <ImageWithFallback
+                                        src={img.url}
+                                        alt={img.caption || `Hình ${sIdx + 1}.${iIdx + 1}`}
+                                        className="w-full h-[250px] sm:h-[400px] md:h-[500px] object-contain mx-auto rounded-lg"
+                                      />
+                                      <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                        <span className="px-4 py-2 rounded-full bg-[#C89B3C] text-black font-semibold text-xs flex items-center gap-1.5 shadow-lg">
+                                          <Maximize2 size={14} /> Bấm để soi ảnh phóng to
+                                        </span>
+                                      </div>
+                                      {(img.caption || img.source) && (
+                                        <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
+                                          {img.caption && <p className="text-white/95 font-medium">{img.caption}</p>}
+                                          {img.source && <p className="text-[#C89B3C]/70 italic">Nguồn: {img.source}</p>}
+                                        </figcaption>
+                                      )}
+                                    </figure>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
 
-                  {/* Footer Note / Nguồn note */}
-                  {currentSlide.footerNote && (
-                    <p className="text-xs sm:text-sm text-white/50 italic pt-3 border-t border-white/10">
-                      {currentSlide.footerNote}
-                    </p>
-                  )}
-                </div>
+                    {/* Body Text if exists */}
+                    {currentSlide.bodyText && (
+                      <div className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed whitespace-pre-line pt-4 border-t border-white/10">
+                        {currentSlide.bodyText}
+                      </div>
+                    )}
+
+                    {/* Footer Note / Nguồn note */}
+                    {currentSlide.footerNote && (
+                      <p className="text-xs sm:text-sm text-white/50 italic pt-3 border-t border-white/10">
+                        {currentSlide.footerNote}
+                      </p>
+                    )}
+                  </div>
                 )}
               </div>
 
               {/* THANH THUMBNAIL CỐ ĐỊNH ĐÁY */}
-              <div 
+              <div
                 onWheel={handleThumbWheel}
                 className={`relative z-30 px-3 py-2 sm:py-3 bg-[#141414]/95 border-t border-white/10 shrink-0 select-none transition-opacity duration-300 ${isReady ? 'opacity-100' : 'opacity-0'}`}
               >
                 {isReady && (
                   <Carousel
-                  setApi={setThumbApi}
-                  opts={{
-                    align: "start",
-                    dragFree: true,
-                  }}
-                  className="w-full max-w-3xl mx-auto"
-                >
-                  <CarouselContent className="-ml-2 py-1">
-                    {slides.map((slide, idx) => (
-                      <CarouselItem
-                        key={idx}
-                        className="pl-2 basis-auto"
-                      >
-                        <button
-                          onClick={() => setCurrentSlideIndex(idx)}
-                          className={`relative w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-2xl p-[2px] transition-all cursor-pointer flex items-center justify-center overflow-hidden focus:outline-none ${
-                            idx === currentSlideIndex
+                    setApi={setThumbApi}
+                    opts={{
+                      align: "start",
+                      dragFree: true,
+                    }}
+                    className="w-full max-w-3xl mx-auto"
+                  >
+                    <CarouselContent className="-ml-2 py-1">
+                      {slides.map((slide, idx) => (
+                        <CarouselItem
+                          key={idx}
+                          className="pl-2 basis-auto"
+                        >
+                          <button
+                            onClick={() => setCurrentSlideIndex(idx)}
+                            className={`relative w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-2xl p-[2px] transition-all cursor-pointer flex items-center justify-center overflow-hidden focus:outline-none ${idx === currentSlideIndex
                               ? "bg-[#C89B3C]"
                               : "bg-[#1A1A1A] opacity-40 hover:opacity-100 border border-white/15 hover:border-[#C89B3C]"
-                          }`}
-                        >
-                          {/* Inner Image Frame: Bán kính đồng tâm toán học chính xác (16px - 2px = 14px) */}
-                          <div className="w-full h-full rounded-[14px] bg-[#141414] overflow-hidden relative">
-                            <ImageWithFallback
-                              src={slide.thumbUrl}
-                              alt={slide.title}
-                              className="w-full h-full object-cover pointer-events-none"
-                            />
-                            {slide.images && slide.images.length > 1 && (
-                              <span className="absolute bottom-0.5 right-0.5 bg-black/90 text-[#C89B3C] text-[8px] px-1 rounded font-number font-medium border border-[#C89B3C]/30">
-                                +{slide.images.length}
-                              </span>
-                            )}
-                          </div>
-                        </button>
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                </Carousel>
+                              }`}
+                          >
+                            {/* Inner Image Frame: Bán kính đồng tâm toán học chính xác (16px - 2px = 14px) */}
+                            <div className="w-full h-full rounded-[14px] bg-[#141414] overflow-hidden relative">
+                              <ImageWithFallback
+                                src={slide.thumbUrl}
+                                alt={slide.title}
+                                className="w-full h-full object-cover pointer-events-none"
+                              />
+                              {slide.images && slide.images.length > 1 && (
+                                <span className="absolute bottom-0.5 right-0.5 bg-black/90 text-[#C89B3C] text-[8px] px-1 rounded font-number font-medium border border-[#C89B3C]/30">
+                                  +{slide.images.length}
+                                </span>
+                              )}
+                            </div>
+                          </button>
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                  </Carousel>
                 )}
               </div>
 
@@ -433,9 +432,8 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                             <button
                               onClick={() => zoomIn()}
                               disabled={scale >= 8}
-                              className={`p-2 rounded-lg transition-colors ${
-                                scale >= 8 ? "text-white/30" : "text-white hover:bg-white/15 cursor-pointer"
-                              }`}
+                              className={`p-2 rounded-lg transition-colors ${scale >= 8 ? "text-white/30" : "text-white hover:bg-white/15 cursor-pointer"
+                                }`}
                               title="Phóng to"
                             >
                               <ZoomIn size={18} />
@@ -443,9 +441,8 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                             <button
                               onClick={() => zoomOut()}
                               disabled={scale <= 1}
-                              className={`p-2 rounded-lg transition-colors ${
-                                scale <= 1 ? "text-white/30" : "text-white hover:bg-white/15 cursor-pointer"
-                              }`}
+                              className={`p-2 rounded-lg transition-colors ${scale <= 1 ? "text-white/30" : "text-white hover:bg-white/15 cursor-pointer"
+                                }`}
                               title="Thu nhỏ"
                             >
                               <ZoomOut size={18} />
@@ -453,9 +450,8 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                             <button
                               onClick={() => resetTransform()}
                               disabled={scale <= 1}
-                              className={`p-2 rounded-lg transition-colors ${
-                                scale <= 1 ? "text-white/30" : "text-white hover:bg-white/15 cursor-pointer"
-                              }`}
+                              className={`p-2 rounded-lg transition-colors ${scale <= 1 ? "text-white/30" : "text-white hover:bg-white/15 cursor-pointer"
+                                }`}
                               title="Đặt lại zoom"
                             >
                               <RotateCcw size={18} />

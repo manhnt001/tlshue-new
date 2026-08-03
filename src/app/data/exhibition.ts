@@ -195,6 +195,17 @@ export const exhibitionData: ExhibitionItem[] = [
     ]
   },
   {
+    id: "phan-2-4",
+    group: "Phần II",
+    title: "Thú chơi tao nhã",
+    image: "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    description: "Những thú vui tao nhã của bậc đế vương như thưởng trà, chơi cờ, ngắm hoa, làm thơ.",
+    gallery: [
+      "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    ]
+  },
+  {
     id: "phan-3-1",
     group: "Phần III",
     title: "Nhã nhạc Cung đình",
@@ -225,6 +236,17 @@ export const exhibitionData: ExhibitionItem[] = [
     gallery: [
       "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    ]
+  },
+  {
+    id: "phan-3-4",
+    group: "Phần III",
+    title: "Giao lưu văn hóa",
+    image: "https://images.unsplash.com/photo-1621886292650-520f76c747d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    description: "Sự kết nối và lan tỏa giá trị di sản Cố đô Huế đến với bạn bè quốc tế.",
+    gallery: [
+      "https://images.unsplash.com/photo-1621886292650-520f76c747d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     ]
   }
 ];
