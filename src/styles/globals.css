@@ -1,0 +1,44 @@
+/* Các thẻ HTML cơ bản khi dùng dangerouslySetInnerHTML trong project dùng Tailwind */
+.html-content p {
+  margin-bottom: 0.75em;
+}
+
+.html-content p:last-child {
+  margin-bottom: 0;
+}
+
+.html-content ul {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.html-content ol {
+  list-style-type: decimal;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.html-content li {
+  margin-bottom: 0.25em;
+}
+
+.html-content a {
+  color: #C89B3C;
+  text-decoration: underline;
+}
+
+.html-content b,
+.html-content strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+.html-content i,
+.html-content em {
+  font-style: italic;
+}
+
+.html-content u {
+  text-decoration: underline;
+}

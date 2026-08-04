@@ -219,9 +219,10 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
 
                     {/* Lead Text / Description */}
                     {currentSlide.leadText && (
-                      <p className="text-[#F7F3EB]/95 text-base sm:text-lg leading-relaxed font-normal">
-                        {currentSlide.leadText}
-                      </p>
+                      <div 
+                        className="text-[#F7F3EB]/95 text-base sm:text-lg leading-relaxed font-normal html-content"
+                        dangerouslySetInnerHTML={{ __html: currentSlide.leadText }}
+                      />
                     )}
 
                     {/* Quote if exists */}
@@ -280,9 +281,10 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                                 </h4>
                               )}
                               {sec.text && (
-                                <p className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed">
-                                  {sec.text}
-                                </p>
+                                <div 
+                                  className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed html-content"
+                                  dangerouslySetInnerHTML={{ __html: sec.text }}
+                                />
                               )}
                               {secImages.length > 0 && (
                                 <div className="space-y-6 pt-2">
@@ -320,9 +322,10 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
 
                     {/* Body Text if exists */}
                     {currentSlide.bodyText && (
-                      <div className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed whitespace-pre-line pt-4 border-t border-white/10">
-                        {currentSlide.bodyText}
-                      </div>
+                      <div 
+                        className="text-[#F7F3EB]/90 text-base sm:text-lg leading-relaxed pt-4 border-t border-white/10 html-content"
+                        dangerouslySetInnerHTML={{ __html: currentSlide.bodyText }}
+                      />
                     )}
 
                     {/* Footer Note / Nguồn note */}

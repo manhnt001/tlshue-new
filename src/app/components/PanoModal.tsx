@@ -61,7 +61,7 @@ export function PanoModal({ isOpen, onClose, initialIndex }: PanoModalProps) {
           >
             <ChevronLeft className="w-5 h-5 md:w-8 md:h-8" />
           </button>
-          
+
           <button
             onClick={nextPanel}
             className="absolute right-4 md:right-12 z-50 p-2 md:p-4 rounded-full bg-white/5 hover:bg-white/20 text-white transition-colors backdrop-blur-md border border-white/10"
@@ -84,25 +84,24 @@ export function PanoModal({ isOpen, onClose, initialIndex }: PanoModalProps) {
                 <span className="text-primary tracking-widest text-sm uppercase font-medium">{currentPanel.group}</span>
                 <h3 className="text-white text-2xl md:text-3xl mt-1 drop-shadow-md font-semibold">{currentPanel.title}</h3>
               </div>
-              
+
               {/* Image container */}
-              <div className="relative w-full rounded-sm overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border-4 border-[#2A2A2A] bg-black flex items-center justify-center max-h-[65vh] md:max-h-[70vh]">
+              <div className="relative w-full rounded-sm overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border-4 border-transparent bg-black flex items-center justify-center max-h-[65vh] md:max-h-[70vh]">
                 <ImageWithFallback
                   src={currentPanel.image}
                   alt={currentPanel.title}
                   className="max-w-full max-h-[65vh] md:max-h-[70vh] object-contain"
                 />
               </div>
-              
+
               {/* Pagination indicators */}
               <div className="flex justify-center gap-2">
                 {exhibitionData.map((_, idx) => (
                   <button
                     key={idx}
                     onClick={() => setCurrentIndex(idx)}
-                    className={`w-2 h-2 rounded-full transition-all ${
-                      idx === currentIndex ? "bg-primary w-6" : "bg-white/30 hover:bg-white/50"
-                    }`}
+                    className={`w-2 h-2 rounded-full transition-all ${idx === currentIndex ? "bg-primary w-6" : "bg-white/30 hover:bg-white/50"
+                      }`}
                   />
                 ))}
               </div>
