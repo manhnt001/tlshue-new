@@ -1,11 +1,11 @@
 import { ExhibitionItem } from "./types";
-import panoImg from "../../../img/pano/1.Khanhtiet.jpg";
+
 
 export const khanhTiet: ExhibitionItem = {
   id: "khanh-tiet",
   group: "Khánh Tiết",
   title: "Không Gian Khánh Tiết",
-  image: panoImg,
+  image: "/img/pano/1.Khanhtiet.jpg",
   description: "Không gian trang trọng mở đầu cho hành trình khám phá di sản Hoàng cung Huế. Nơi hội tụ những giá trị biểu tượng cao quý nhất.",
   gallery: [
     "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",

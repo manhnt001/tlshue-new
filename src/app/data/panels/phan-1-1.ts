@@ -1,11 +1,11 @@
 import { ExhibitionItem } from "./types";
-import panoImg from "../../../img/pano/2.1.jpg";
+
 
 export const phan1_1: ExhibitionItem = {
   id: "phan-1-1",
   group: "Phần I",
   title: "Kiến trúc Cung đình",
-  image: panoImg,
+  image: "/img/pano/2.1.jpg",
   description: "Khám phá nghệ thuật kiến trúc đặc sắc của Hoàng thành Huế, với những quy chuẩn khắt khe và triết lý phong thủy sâu sắc.",
   gallery: [
     "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",

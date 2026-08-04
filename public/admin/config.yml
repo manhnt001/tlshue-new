@@ -1,0 +1,69 @@
+logo_url: "/img/logo.webp"
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: "nt4z0zzq"
+    api_key: "895522284138286"
+    multiple: true
+
+collections:
+  - name: "panels"
+    label: "Di sản (Panels)"
+    folder: "src/app/data/json-panels"
+    create: true
+    slug: "{{id}}"
+    format: "json"
+    extension: "json"
+    summary: "{{group}} - {{title}}"
+    fields:
+      - { label: "Mã ID (VD: phan-1-1)", name: "id", widget: "string" }
+      - { label: "Tên Nhóm (VD: Phần I)", name: "group", widget: "string", required: false }
+      - { label: "Tiêu đề Panel", name: "title", widget: "string", required: false }
+      - { label: "Ảnh Thumbnail", name: "image", widget: "image" }
+      - { label: "Mô tả ngắn", name: "description", widget: "text" }
+      - label: "Thư viện ảnh Gallery"
+        name: "gallery"
+        widget: "list"
+        field: { label: "Ảnh", name: "url", widget: "image" }
+      
+      - label: "Danh sách Slides"
+        name: "slides"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Mã Slide (id)", name: "id", widget: "string" }
+          - { label: "Ảnh đại diện Slide (thumbUrl)", name: "thumbUrl", widget: "image" }
+          - { label: "Tiêu đề Slide", name: "title", widget: "string" }
+          - { label: "Đoạn văn mở đầu (leadText)", name: "leadText", widget: "markdown", required: false }
+          - { label: "Câu trích dẫn (quote)", name: "quote", widget: "string", required: false }
+          - { label: "Nội dung chính (bodyText)", name: "bodyText", widget: "markdown", required: false }
+          - { label: "Ghi chú chân trang (footerNote)", name: "footerNote", widget: "string", required: false }
+          
+          - label: "Ảnh tư liệu (images)"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "URL Ảnh", name: "url", widget: "image" }
+              - { label: "Chú thích (caption)", name: "caption", widget: "string", required: false }
+              - { label: "Nguồn ảnh (source)", name: "source", widget: "string", required: false }
+          
+          - label: "Các mục con (sections)"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tiêu đề mục", name: "title", widget: "string", required: false }
+              - { label: "Nội dung mục (text)", name: "text", widget: "markdown", required: false }
+              - label: "Ảnh của mục con"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "URL Ảnh", name: "url", widget: "image" }
+                  - { label: "Chú thích (caption)", name: "caption", widget: "string", required: false }
+                  - { label: "Nguồn ảnh (source)", name: "source", widget: "string", required: false }

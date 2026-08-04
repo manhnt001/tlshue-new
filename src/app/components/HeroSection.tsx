@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Play } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Button } from "./ui/button";
-import bannerHero from "../../img/banner-hero.jpg";
+const bannerHero = "/img/banner-hero.jpg";
 
 export function HeroSection() {
   return (
