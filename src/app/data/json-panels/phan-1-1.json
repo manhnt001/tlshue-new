@@ -6,30 +6,80 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835188/2.1_gkqwvk.jpg"
   ],
   "description": "Khám phá nghệ thuật kiến trúc đặc sắc của Hoàng thành Huế, với những quy chuẩn khắt khe và triết lý phong thủy sâu sắc.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
-  ],
+  "gallery": [],
   "slides": [
     {
-      "id": "demo-html-1",
-      "thumbUrl": "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "title": "Bản thử nghiệm Nhập liệu bằng HTML123",
-      "leadText": "<p>Đây là dòng đầu tiên, được tạo ra bằng <b>mã HTML</b>. Bạn có thể <i>in nghiêng</i>, hoặc tạo danh sách.</p><ul><li>Mục số 1</li><li>Mục số 2</li></ul>",
-      "bodyText": "<p>Đoạn văn này là <b>bodyText</b>. Bạn hoàn toàn có thể sao chép từ <span style='color: #C89B3C; font-weight: bold;'>Microsoft Word</span> sang một trang HTML Editor và dán đoạn mã sinh ra vào đây.</p><p><br></p><p>Khoảng trống này được tạo bởi thẻ &lt;p&gt; và &lt;br&gt; tự động.</p>",
-      "images": [
+      "thumbUrl": [
+        "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835870/A1_rkrt8h.jpg"
+      ],
+      "blocks": [
         {
-          "url": "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-          "caption": "Ảnh minh họa cho slide thử nghiệm HTML",
-          "source": "Nguồn ảnh demo"
+          "type": "text_block",
+          "content": "Từ hai châu Ô và Lý được sáp nhập vào Đại Việt đầu thế kỷ XIV, vùng đất Huế từng bước trở thành trung tâm chính trị quan trọng của đất nước. Trải qua nhiều lần điều chỉnh đơn vị hành chính, Huế là thủ phủ Đàng Trong dưới thời các chúa Nguyễn và là kinh đô Phú Xuân dưới thời Tây Sơn, tạo tiền đề cho vai trò kinh đô của triều Nguyễn sau này."
+        },
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835870/A1_rkrt8h.jpg"
+          ],
+          "caption": "",
+          "source": ""
+        },
+        {
+          "type": "text_block",
+          "content": "Vào mùa hạ, tháng 5, năm Bính Ngọ (1306), khi được kết hôn với công chúa của Đại Việt, Chế Mân còn đem đất của hai châu Ô và Lý dâng cho Đại Việt làm lễ vật. Đến năm 1307, nhà Trần đã cử Hành khiển Đoàn Nhữ Hài đến cai quản rồi cho đổi hai châu ấy làm châu Thuận và châu Hóa sáp nhập vào bản đồ của Đại Việt (nay là vùng phía nam Quảng Trị và Thừa Thiên - Huế)."
         }
       ],
-      "sections": [
+      "adminTitle": "A1"
+    },
+    {
+      "thumbUrl": [
+        "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835874/B1_mmovik.jpg"
+      ],
+      "blocks": [
         {
-          "title": "I. Mục nhỏ bằng HTML",
-          "text": "<p>Tiếp tục dùng <b>dangerouslySetInnerHTML</b> cho mục này. Nó rất <u>tiện lợi</u>!</p>"
+          "type": "section_block",
+          "content": "\n\n![Cầu Trường Tiền bắc qua sông Hương được xây dựng năm 1897. ](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835874/B1_mmovik.jpg \"Ảnh: Tư liệu sưu tầm\")\n\n\n\nNăm 1899, thị xã Huế được thành lập. Từ đây Huế chính thức trở thành một đô thị theo tiêu chuẩn phương Tây.",
+          "title": ""
         }
-      ]
+      ],
+      "adminTitle": "B1"
+    },
+    {
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "![Bản đồ từ Huế đến Đà Nẵng trong cuốn \"Chuyến thám hiểm từ Huế vào Nam kỳ\" xuất bản năm 1899 của tác giả Camille Paris (1856-1908)](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835869/1899_djg7yf.jpg \"gallica.bnf.fr/ark:/12148/bpt6k58577516/f1.planchecontact\")"
+        }
+      ],
+      "adminTitle": "1899"
+    },
+    {
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "![Huế, đầu thế kỷ XX: Toàn cảnh thành phố Huế, phía xa là lăng vua Tự Đức.](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835879/A2_ifmuoq.jpg \"Ảnh: Paul Vieillard. Nguồn:https://gallica.bnf.fr/services/engine/search\")"
+        }
+      ],
+      "adminTitle": "A2"
+    },
+    {
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "![Bản đồ tỉnh Thừa Thiên trong tập bản đồ về Đông Dương thuộc Pháp xuất bản năm 1909](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835878/1909_sb6hzp.jpg \"https://humazur.univ-cotedazur.fr/s/Humazur\")\n\nNgày 12/12/1929, Toàn quyền Đông Dương ban hành Nghị định thành lập thành phố Huế trên cơ sở nâng cấp thị xã Huế. Đây là dấu mốc quan trọng trong quá trình tổ chức và quản lý đô thị, tạo điều kiện mở rộng không gian thành phố, thúc đẩy phát triển dân cư, thương mại và hạ tầng, đưa Huế trở thành một đô thị có quy mô trung bình dưới thời Pháp thuộc."
+        }
+      ],
+      "adminTitle": "1909"
+    },
+    {
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "123"
+        }
+      ],
+      "adminTitle": "1932"
     }
   ]
 }

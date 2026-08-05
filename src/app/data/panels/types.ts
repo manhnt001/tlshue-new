@@ -4,22 +4,22 @@ export interface SubImage {
   source?: string;
 }
 
-export interface ContentSection {
-  title?: string;
-  text?: string;
+export interface SlideBlock {
+  type: "text_block" | "quote_block" | "gallery_block" | "section_block" | "image_block";
+  content?: string;
+  quote?: string;
+  source?: string;
   images?: (string | SubImage)[];
+  image?: string | SubImage;
+  caption?: string;
+  title?: string;
 }
 
 export interface GallerySlide {
-  id: string;
+  id?: string;
   thumbUrl: string;
-  title: string;
-  leadText?: string;
-  quote?: string;
-  bodyText?: string;
-  footerNote?: string;
-  images?: (string | SubImage)[];
-  sections?: ContentSection[];
+  title?: string;
+  blocks?: SlideBlock[];
 }
 
 export interface ExhibitionItem {
@@ -27,7 +27,7 @@ export interface ExhibitionItem {
   group: string;
   title: string;
   image: string;
-  description: string;
+  description?: string;
   gallery: string[];
   slides?: GallerySlide[];
 }
