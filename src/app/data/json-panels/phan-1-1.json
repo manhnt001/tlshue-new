@@ -71,15 +71,6 @@
         }
       ],
       "adminTitle": "1909"
-    },
-    {
-      "blocks": [
-        {
-          "type": "text_block",
-          "content": "123"
-        }
-      ],
-      "adminTitle": "1932"
     }
   ]
 }
