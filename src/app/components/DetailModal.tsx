@@ -172,6 +172,42 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
     }
   };
 
+  const renderTextWithLinks = (text: string) => {
+    if (!text) return null;
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const lines = text.split('\n');
+    
+    return (
+      <>
+        {lines.map((line, lIdx) => {
+          const parts = line.split(urlRegex);
+          return (
+            <span key={lIdx}>
+              {parts.map((part, i) => {
+                if (part.match(urlRegex)) {
+                  return (
+                    <a
+                      key={i}
+                      href={part}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline text-[#e0b457] break-all"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      {part}
+                    </a>
+                  );
+                }
+                return part;
+              })}
+              {lIdx < lines.length - 1 && <br />}
+            </span>
+          );
+        })}
+      </>
+    );
+  };
+
   const renderMarkdownWithImages = (content: string) => {
     if (!content) return null;
     const parts = content.split(/(!\[.*?\]\(\s*\S+?(?:\s+["'].*?["'])?\s*\))/g);
@@ -206,7 +242,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                   {(alt || title) && (
                     <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5 mt-0">
                       {alt && <p className="text-white/95 font-medium">{alt}</p>}
-                      {title && <p className="text-[#C89B3C]/70 italic">{title}</p>}
+                      {title && <p className="text-[#C89B3C]/70 italic">{renderTextWithLinks(title)}</p>}
                     </figcaption>
                   )}
                 </figure>
@@ -332,7 +368,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                               return block.quote ? (
                                 <blockquote key={bIdx} className="border-l-3 border-[#C89B3C] pl-5 py-3 italic text-[#C89B3C] text-base sm:text-lg bg-[#C89B3C]/10 rounded-r-lg font-serif">
                                   "{block.quote}"
-                                  {block.source && <span className="block mt-2 text-sm text-[#C89B3C]/70 not-italic font-sans">- {block.source}</span>}
+                                  {block.source && <span className="block mt-2 text-sm text-[#C89B3C]/70 not-italic font-sans">- {renderTextWithLinks(block.source)}</span>}
                                 </blockquote>
                               ) : null;
 
@@ -360,7 +396,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                                         {(img.caption || img.source) && (
                                           <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
                                             {img.caption && <p className="text-white/95 font-medium">{img.caption}</p>}
-                                            {img.source && <p className="text-[#C89B3C]/70 italic">{img.source}</p>}
+                                            {img.source && <p className="text-[#C89B3C]/70 italic">{renderTextWithLinks(img.source)}</p>}
                                           </figcaption>
                                         )}
                                       </figure>
@@ -402,7 +438,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                                   {(block.caption || block.source) && (
                                     <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
                                       {block.caption && <p className="text-white/95 font-medium">{block.caption}</p>}
-                                      {block.source && <p className="text-[#C89B3C]/70 italic">{block.source}</p>}
+                                      {block.source && <p className="text-[#C89B3C]/70 italic">{renderTextWithLinks(block.source)}</p>}
                                     </figcaption>
                                   )}
                                 </figure>
@@ -440,7 +476,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                                             {(img.caption || img.source) && (
                                               <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
                                                 {img.caption && <p className="text-white/95 font-medium">{img.caption}</p>}
-                                                {img.source && <p className="text-[#C89B3C]/70 italic">{img.source}</p>}
+                                                {img.source && <p className="text-[#C89B3C]/70 italic">{renderTextWithLinks(img.source)}</p>}
                                               </figcaption>
                                             )}
                                           </figure>
@@ -631,7 +667,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                         )}
                         {lightboxImage.source && (
                           <p className="text-xs sm:text-sm text-[#C89B3C]/70 italic mt-1.5 max-w-4xl mx-auto">
-                            {lightboxImage.source}
+                            {renderTextWithLinks(lightboxImage.source)}
                           </p>
                         )}
                       </div>

@@ -54,17 +54,19 @@ function ExhibitionCard({ panel, index, onPanoClick, onDetailClick }: { panel: a
             Xem Pano
           </button>
 
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              onDetailClick();
-            }}
-            className={`w-[180px] py-3 px-6 rounded-full bg-white/10 text-white font-medium border border-white/20 hover:bg-white/20 active:scale-95 flex items-center justify-center gap-2 transform-gpu transition-all duration-200 shadow-md cursor-pointer ${isActive ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100'}`}
-            style={{ transitionDelay: isActive ? '50ms' : '' }}
-          >
-            <Info size={18} />
-            Xem Chi Tiết
-          </button>
+          {panel.id !== "khanh-tiet" && panel.id !== "loi-gioi-thieu" && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onDetailClick();
+              }}
+              className={`w-[180px] py-3 px-6 rounded-full bg-white/10 text-white font-medium border border-white/20 hover:bg-white/20 active:scale-95 flex items-center justify-center gap-2 transform-gpu transition-all duration-200 shadow-md cursor-pointer ${isActive ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100'}`}
+              style={{ transitionDelay: isActive ? '50ms' : '' }}
+            >
+              <Info size={18} />
+              Xem Chi Tiết
+            </button>
+          )}
         </div>
 
         {/* Hover Border Overlay */}
