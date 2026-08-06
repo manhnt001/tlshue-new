@@ -13,9 +13,9 @@ export function Footer() {
             <a href="#hero" className="flex items-center gap-2 mb-6 inline-flex group">
               <img src={logoImg} alt="Logo" className="h-16 w-auto object-contain" />
             </a>
-            <p className="text-sm text-white/60 leading-relaxed mb-6 max-w-xs">
+            {/* <p className="text-sm text-white/60 leading-relaxed mb-6 max-w-xs">
               Dự án số hóa di sản văn hóa Huế, nhằm bảo tồn và lan tỏa giá trị lịch sử thông qua không gian triển lãm thực tế ảo tương tác.
-            </p>
+            </p> */}
           </div>
 
           {/* Center: Contact & Social */}
@@ -24,15 +24,15 @@ export function Footer() {
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary shrink-0 mt-0.5" />
-                <span className="text-sm text-white/60">Trung tâm Bảo tồn Di tích Cố đô Huế, Phường Thuận Hòa, TP. Huế, Việt Nam</span>
+                <span className="text-sm text-white/60">Trung tâm Lưu trữ thành phố Huế</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary shrink-0" />
-                <span className="text-sm text-white/60">+84 234 352 3237</span>
+                <span className="text-sm text-white/60">02343.845894</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary shrink-0" />
-                <span className="text-sm text-white/60">info@disanhue.vn</span>
+                <span className="text-sm text-white/60">ttlt@hue.gov.vn</span>
               </li>
             </ul>
 
