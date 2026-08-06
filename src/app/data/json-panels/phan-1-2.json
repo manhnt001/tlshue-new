@@ -6,8 +6,81 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835187/2.2_xw9zrq.jpg"
   ],
   "description": "Chiêm ngưỡng sự tinh xảo trong từng đường nét chạm trổ trên gỗ, đá và khảm sành sứ của các nghệ nhân xưa.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1621886292650-520f76c747d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "P1-12",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "***Xây dựng, củng cố chính quyền địa phương sau ngày Độc lập***\n\n*Nhân dân Thừa Thiên-Huế tham gia giành chính quyền và kéo vào cửa Thượng Tứ ngày 23/8/1945, ngày cách mạng thắng lợi tại Huế.* \n\n*(Ảnh: Tư liệu TTXVN)*\n\n*Nguồn:* <https://nhandan.vn/ngay-2381945-co-do-hue-gianh-chinh-quyen-ve-tay-nhan-dan-post902065.html>\n\n![Nhân dân Thừa Thiên-Huế tham gia giành chính quyền và kéo vào cửa Thượng Tứ ngày 23/8/1945, ngày cách mạng thắng lợi tại Huế.](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835874/12_csdjtc.jpg \"(Ảnh: Tư liệu TTXVN) Nguồn: https://nhandan.vn/ngay-2381945-co-do-hue-gianh-chinh-quyen-ve-tay-nhan-dan-post902065.html\")"
+        }
+      ]
+    },
+    {
+      "adminTitle": "P1-13",
+      "thumbUrl": [
+        "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835885/13_zyuc8f.jpg"
+      ],
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835885/13_zyuc8f.jpg"
+          ],
+          "caption": "Chiều 23/8/1945, hàng vạn người dân Huế và các lực lượng kéo về sân vận động Huế.",
+          "source": "(Ảnh tư liệu/VOV)"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A3",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "![](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835906/a3-1_dx47bn.jpg)\n\n![Sắc lệnh số 77 ngày 21/12/1945 của Chủ tịch Chính phủ Lâm thời Việt Nam DCCH quy định việc tổ chức chính quyền nhân dân tại các thị xã và thành phố.](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835913/a3-2_k1dxh5.jpg \"Nguồn: Trung tâm Lưu trữ quốc gia III.\")"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A3-2",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\n**1945:** **Huế tiếp tục là tỉnh lỵ của Thừa Thiên**, thuộc Khu 4 cùng các tỉnh Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A3-3",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "“Các thị trấn Hà Nội, Hải Phòng, Nam Định, Vinh - Bến Thuỷ, Huế, Đà Nẵng, Đà Lạt và Sài Gòn Chợ Lớn đều đặt làm thành phố.”\n\nTrích: Sắc lệnh số 77 ngày 21/12/1945 của Chủ tịch Chính phủ Việt Nam DCCH quy định việc tổ chức chính quyền nhân dân tại các thị xã và thành phố. \n\n*Nguồn: Trung tâm Lưu trữ quốc gia III.*"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A3-4",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "Ở mỗi thành phố sẽ đặt ba thứ cơ quan: \n\n**Hội đồng nhân dân thành phố,** \n\n**Uỷ ban hành chính thành phố** \n\n**Uỷ ban hành chính khu phố.**"
+        }
+      ]
+    },
+    {
+      "adminTitle": "B39",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835896/b39_yf7jau.jpg"
+          ],
+          "caption": "Sắc lệnh số 11 ngày 24/1/1946 của Chủ tịch Chính phủ lâm thời Việt Nam DCCH quy định Huế “tạm thời coi như là thị xã”.",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III"
+        }
+      ]
+    }
   ]
 }

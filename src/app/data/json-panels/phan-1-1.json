@@ -49,7 +49,7 @@
       "blocks": [
         {
           "type": "text_block",
-          "content": "![Bản đồ từ Huế đến Đà Nẵng trong cuốn \"Chuyến thám hiểm từ Huế vào Nam kỳ\" xuất bản năm 1899 của tác giả Camille Paris (1856-1908)](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835869/1899_djg7yf.jpg \"gallica.bnf.fr/ark:/12148/bpt6k58577516/f1.planchecontact\")"
+          "content": "![Bản đồ từ Huế đến Đà Nẵng trong cuốn \"Chuyến thám hiểm từ Huế vào Nam kỳ\" xuất bản năm 1899 của tác giả Camille Paris (1856-1908)](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835869/1899_djg7yf.jpg \"Nguồn: Ảnh sưu tầm gallica.bnf.fr/ark:/12148/bpt6k58577516/f1.planchecontact\")"
         }
       ],
       "adminTitle": "1899"
@@ -67,10 +67,23 @@
       "blocks": [
         {
           "type": "text_block",
-          "content": "![Bản đồ tỉnh Thừa Thiên trong tập bản đồ về Đông Dương thuộc Pháp xuất bản năm 1909](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835878/1909_sb6hzp.jpg \"https://humazur.univ-cotedazur.fr/s/Humazur\")\n\nNgày 12/12/1929, Toàn quyền Đông Dương ban hành Nghị định thành lập thành phố Huế trên cơ sở nâng cấp thị xã Huế. Đây là dấu mốc quan trọng trong quá trình tổ chức và quản lý đô thị, tạo điều kiện mở rộng không gian thành phố, thúc đẩy phát triển dân cư, thương mại và hạ tầng, đưa Huế trở thành một đô thị có quy mô trung bình dưới thời Pháp thuộc."
+          "content": "![Bản đồ tỉnh Thừa Thiên trong tập bản đồ về Đông Dương thuộc Pháp xuất bản năm 1909](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835878/1909_sb6hzp.jpg \"Nguồn: https://humazur.univ-cotedazur.fr/s/Humazur\")\n\nNgày 12/12/1929, Toàn quyền Đông Dương ban hành Nghị định thành lập thành phố Huế trên cơ sở nâng cấp thị xã Huế. Đây là dấu mốc quan trọng trong quá trình tổ chức và quản lý đô thị, tạo điều kiện mở rộng không gian thành phố, thúc đẩy phát triển dân cư, thương mại và hạ tầng, đưa Huế trở thành một đô thị có quy mô trung bình dưới thời Pháp thuộc."
         }
       ],
       "adminTitle": "1909"
+    },
+    {
+      "adminTitle": "1932",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835874/1932_zubfw3.jpg"
+          ],
+          "caption": "Ảnh chụp kinh thành Huế từ trên cao năm 1932.",
+          "source": "Nguồn: AAVH"
+        }
+      ]
     }
   ]
 }

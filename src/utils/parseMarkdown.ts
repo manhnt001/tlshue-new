@@ -44,6 +44,9 @@ ${captionHtml}
 </figure>`;
   });
 
+  // Autolinks: &lt;https://...&gt; -> <a href="...">...</a>
+  html = html.replace(/&lt;(https?:\/\/[^<>\s]+)&gt;/gi, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-[#C89B3C] hover:underline hover:text-[#e0b457] transition-colors break-all">$1</a>');
+
   // Link
   html = html.replace(/\[(.*?)\]\(\s*(\S+?)(?:\s+["'](.*?)["'])?\s*\)/g, (match, text, url, title) => {
     const titleAttr = title ? ` title="${title}"` : '';
