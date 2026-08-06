@@ -25,7 +25,7 @@ export function DocumentarySection({ isPlaying, onPlay, onStop }: DocumentarySec
             {isPlaying ? (
               <div className="relative w-full h-full">
                 <iframe
-                  src="https://www.youtube.com/embed/wIGVtOk950w?autoplay=1"
+                  src="https://www.youtube.com/embed/aAC9B_GxZ-U?autoplay=1"
                   className="w-full h-full border-0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -41,7 +41,7 @@ export function DocumentarySection({ isPlaying, onPlay, onStop }: DocumentarySec
               </div>
             ) : (
               <VideoCard
-                src="https://images.unsplash.com/photo-1616438096679-620332ede3a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWaWV0bmFtJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc4MTU4MTIwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="/img/PTL-Hue.jpg"
                 alt="Phim Tài Liệu Văn Hóa Huế"
                 className="w-full h-full border-0 rounded-none shadow-none"
                 onClick={onPlay}
