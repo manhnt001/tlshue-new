@@ -41,8 +41,15 @@
       "adminTitle": "A3",
       "blocks": [
         {
-          "type": "text_block",
-          "content": "![](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835906/a3-1_dx47bn.jpg)\n\n![Sắc lệnh số 77 ngày 21/12/1945 của Chủ tịch Chính phủ Lâm thời Việt Nam DCCH quy định việc tổ chức chính quyền nhân dân tại các thị xã và thành phố.](https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835913/a3-2_k1dxh5.jpg \"Nguồn: Trung tâm Lưu trữ quốc gia III.\")"
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835906/a3-1_dx47bn.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835913/a3-2_k1dxh5.jpg"
+            ]
+          ],
+          "caption": "Sắc lệnh số 77 ngày 21/12/1945 của Chủ tịch Chính phủ Lâm thời Việt Nam DCCH quy định việc tổ chức chính quyền nhân dân tại các thị xã và thành phố.",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III."
         }
       ]
     },

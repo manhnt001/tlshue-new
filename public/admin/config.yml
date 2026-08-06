@@ -1,4 +1,4 @@
-logo_url: "/img/logo.webp"
+logo_url: "/img/logo-FT2.png"
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)

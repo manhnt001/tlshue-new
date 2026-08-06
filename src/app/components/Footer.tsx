@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { VisitorStats } from "./VisitorStats";
-const logoImg = "/img/logo.webp";
+const logoImg = "/img/logo-FT2.png";
 
 export function Footer() {
   return (
