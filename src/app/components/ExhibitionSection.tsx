@@ -100,7 +100,7 @@ export function ExhibitionSection() {
         />
 
         <div className="flex flex-col gap-8 md:gap-12">
-          
+
           <div>
             <SectionDivider title="Khu Vực Mở Đầu" />
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
@@ -121,7 +121,7 @@ export function ExhibitionSection() {
           </div>
 
           <div>
-            <SectionDivider title="Phần I: Kiến Trúc Cung Đình" />
+            <SectionDivider title="Phần I" />
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
               {exhibitionData.slice(2, 5).map((panel, i) => {
                 const index = i + 2;
@@ -140,7 +140,7 @@ export function ExhibitionSection() {
           </div>
 
           <div>
-            <SectionDivider title="Phần II: Đời Sống Hoàng Tộc" />
+            <SectionDivider title="Phần II" />
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
               {exhibitionData.slice(5, 9).map((panel, i) => {
                 const index = i + 5;
@@ -159,7 +159,7 @@ export function ExhibitionSection() {
           </div>
 
           <div>
-            <SectionDivider title="Phần III: Giá Trị & Bảo Tồn" />
+            <SectionDivider title="Phần III" />
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
               {exhibitionData.slice(9, 13).map((panel, i) => {
                 const index = i + 9;
