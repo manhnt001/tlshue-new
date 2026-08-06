@@ -14,26 +14,40 @@ interface DetailModalProps {
 }
 
 function getSlideThumbUrl(slide: GallerySlide): string {
+  const fallbackUrl = "data:image/svg+xml,%3Csvg width='88' height='88' xmlns='http://www.w3.org/2000/svg' stroke='%23ffffff' stroke-linejoin='round' opacity='0.5' fill='none' stroke-width='3.7'%3E%3Crect x='16' y='16' width='56' height='56' rx='6'/%3E%3Cpath d='m16 58 16-18 32 32'/%3E%3Ccircle cx='53' cy='35' r='7'/%3E%3C/svg%3E";
+
+  const extractFirstUrl = (val: any): string | null => {
+    if (typeof val === "string") {
+      const parts = val.split(",").map(s => s.trim()).filter(Boolean);
+      if (parts.length > 0) return parts[0];
+    }
+    if (Array.isArray(val) && val.length > 0) {
+      for (const item of val) {
+        const found = extractFirstUrl(item);
+        if (found) return found;
+      }
+    }
+    if (val && typeof val === "object" && val.url) return extractFirstUrl(val.url);
+    return null;
+  };
+
   // 1. Explicit thumbUrl
   if (slide.thumbUrl) {
-    if (typeof slide.thumbUrl === "string") return slide.thumbUrl;
-    if (Array.isArray(slide.thumbUrl) && slide.thumbUrl.length > 0) return slide.thumbUrl[0];
+    const found = extractFirstUrl(slide.thumbUrl);
+    if (found) return found;
   }
 
   // 2. Auto-extract from blocks
   if (slide.blocks && slide.blocks.length > 0) {
     for (const block of slide.blocks) {
       if (block.type === "image_block" && block.image) {
-        if (typeof block.image === "string") return block.image;
-        if (Array.isArray(block.image)) {
-          return typeof block.image[0] === "string" ? block.image[0] : (block.image[0] as any)?.url || "";
-        }
-        if ((block.image as any).url) return (block.image as any).url;
+        const found = extractFirstUrl(block.image);
+        if (found) return found;
       }
 
       if ((block.type === "gallery_block" || block.type === "section_block") && block.images && block.images.length > 0) {
-        const firstImg = block.images[0];
-        return typeof firstImg === "string" ? firstImg : firstImg.url;
+        const found = extractFirstUrl(block.images[0]);
+        if (found) return found;
       }
 
       if (block.type === "text_block" && block.content) {
@@ -44,13 +58,13 @@ function getSlideThumbUrl(slide: GallerySlide): string {
   }
 
   // 3. Fallback
-  return "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?q=80&w=400";
+  return fallbackUrl;
 }
 
 export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [thumbApi, setThumbApi] = useState<CarouselApi>();
-  const [lightboxImage, setLightboxImage] = useState<SubImage | null>(null);
+  const [lightboxData, setLightboxData] = useState<{ images: SubImage[], index: number } | null>(null);
   const [scale, setScale] = useState(1);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const viewerRef = useRef<HTMLDivElement>(null);
@@ -100,7 +114,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
     let t: NodeJS.Timeout;
     if (isOpen) {
       setCurrentSlideIndex(0);
-      setLightboxImage(null);
+      setLightboxData(null);
       document.body.style.overflow = "hidden";
       t = setTimeout(() => setIsReady(true), 150);
     } else {
@@ -163,10 +177,13 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
     if (figure) {
       const img = figure.querySelector('img');
       if (img) {
-        setLightboxImage({
-          url: img.src,
-          caption: img.alt || undefined,
-          source: img.title || undefined
+        setLightboxData({
+          images: [{
+            url: img.src,
+            caption: img.alt || undefined,
+            source: img.title || undefined
+          }],
+          index: 0
         });
       }
     }
@@ -226,7 +243,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
               return (
                 <figure
                   key={pIdx}
-                  onClick={() => setLightboxImage(imgObj as SubImage)}
+                  onClick={() => setLightboxData({ images: [imgObj as SubImage], index: 0 })}
                   className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C] pt-2 my-6"
                 >
                   <ImageWithFallback
@@ -380,7 +397,10 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                                     return (
                                       <figure
                                         key={iIdx}
-                                        onClick={() => setLightboxImage(img as SubImage)}
+                                        onClick={() => {
+                                          const mappedGallery = block.images.map((item, idx) => typeof item === "string" ? { url: item, caption: `Hình ảnh ${idx + 1}` } : item);
+                                          setLightboxData({ images: mappedGallery as SubImage[], index: iIdx });
+                                        }}
                                         className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C]"
                                       >
                                         <ImageWithFallback
@@ -408,35 +428,45 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                             case "image_block":
                               if (!block.image) return null;
 
-                              let singleImgUrl = "";
-                              if (typeof block.image === "string") {
-                                singleImgUrl = block.image;
-                              } else if (Array.isArray(block.image)) {
-                                singleImgUrl = typeof block.image[0] === "string" ? block.image[0] : block.image[0]?.url || "";
-                              } else if ((block.image as any).url) {
-                                singleImgUrl = (block.image as any).url;
-                              }
-                              if (!singleImgUrl) return null;
+                              let imgUrls: string[] = [];
+                              const extractUrls = (val: any): string[] => {
+                                if (typeof val === "string") return val.split(",").map(s => s.trim()).filter(Boolean);
+                                if (Array.isArray(val)) return val.flatMap(extractUrls);
+                                if (val && typeof val === "object" && val.url) return extractUrls(val.url);
+                                return [];
+                              };
+                              imgUrls = extractUrls(block.image);
+                              
+                              if (imgUrls.length === 0) return null;
 
-                              const singleImgObj = { url: singleImgUrl, caption: block.caption, source: block.source };
                               return (
                                 <figure
                                   key={bIdx}
-                                  onClick={() => setLightboxImage(singleImgObj as SubImage)}
-                                  className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C] pt-2"
+                                  className="group relative rounded-xl overflow-hidden border border-white/15 bg-black shadow-xl transition-all duration-300 hover:border-[#C89B3C] pt-2"
                                 >
-                                  <ImageWithFallback
-                                    src={singleImgUrl}
-                                    alt={block.caption || `Ảnh chi tiết`}
-                                    className="w-full h-[250px] sm:h-[400px] md:h-[500px] object-contain mx-auto rounded-lg"
-                                  />
-                                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                    <span className="px-4 py-2 rounded-full bg-[#C89B3C] text-black font-semibold text-xs flex items-center gap-1.5 shadow-lg">
-                                      <Maximize2 size={14} /> Bấm để soi ảnh phóng to
-                                    </span>
+                                  <div className="flex flex-col space-y-4">
+                                    {imgUrls.map((url, i) => (
+                                      <div 
+                                        key={i} 
+                                        className="relative cursor-pointer group/img"
+                                        onClick={() => setLightboxData({ images: imgUrls.map(u => ({ url: u, caption: block.caption, source: block.source })), index: i })}
+                                      >
+                                        <ImageWithFallback
+                                          src={url}
+                                          alt={block.caption || `Ảnh chi tiết`}
+                                          className="w-full h-[250px] sm:h-[400px] md:h-[500px] object-contain mx-auto rounded-lg"
+                                        />
+                                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+                                          <span className="px-4 py-2 rounded-full bg-[#C89B3C] text-black font-semibold text-xs flex items-center gap-1.5 shadow-lg">
+                                            <Maximize2 size={14} /> Bấm để soi ảnh phóng to
+                                          </span>
+                                        </div>
+                                      </div>
+                                    ))}
                                   </div>
+                                  
                                   {(block.caption || block.source) && (
-                                    <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5">
+                                    <figcaption className="p-3.5 bg-black/85 border-t border-white/10 text-xs sm:text-sm space-y-0.5 mt-2 relative z-10">
                                       {block.caption && <p className="text-white/95 font-medium">{block.caption}</p>}
                                       {block.source && <p className="text-[#C89B3C]/70 italic">{renderTextWithLinks(block.source)}</p>}
                                     </figcaption>
@@ -448,7 +478,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                               return (
                                 <div key={bIdx} className="space-y-4">
                                   {block.title && (
-                                    <h4 className="text-lg sm:text-xl font-serif text-[#C89B3C] font-bold">
+                                    <h4 className="text-lg sm:text-xl font-sans text-[#C89B3C] font-bold">
                                       {block.title}
                                     </h4>
                                   )}
@@ -460,7 +490,10 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                                         return (
                                           <figure
                                             key={iIdx}
-                                            onClick={() => setLightboxImage(img as SubImage)}
+                                            onClick={() => {
+                                              const mappedSectionGallery = block.images.map((item, idx) => typeof item === "string" ? { url: item, caption: `Hình ${idx + 1}` } : item);
+                                              setLightboxData({ images: mappedSectionGallery as SubImage[], index: iIdx });
+                                            }}
                                             className="group relative rounded-xl overflow-hidden border border-white/15 bg-black cursor-pointer shadow-xl transition-all duration-300 hover:border-[#C89B3C]"
                                           >
                                             <ImageWithFallback
@@ -558,7 +591,7 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
 
             {/* FULLSCREEN LIGHTBOX FOR ZOOMING/PANNING ANY IMAGE */}
             <AnimatePresence>
-              {lightboxImage && (
+              {lightboxData && lightboxData.images[lightboxData.index] && (
                 <motion.div
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
@@ -571,13 +604,13 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                     <div>
                       {currentSlide.title && (
                         <h3 className="text-white text-base font-serif mt-0.5">
-                          {currentSlide.title}
+                          {currentSlide.title} {lightboxData.images.length > 1 && <span className="ml-3 px-2 py-0.5 rounded-full bg-white/10 text-xs font-number">{lightboxData.index + 1} / {lightboxData.images.length}</span>}
                         </h3>
                       )}
                     </div>
 
                     <button
-                      onClick={() => setLightboxImage(null)}
+                      onClick={() => setLightboxData(null)}
                       className="p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer border border-white/10 hover:border-[#C89B3C]"
                       title="Thoát soi ảnh"
                     >
@@ -591,7 +624,28 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                     className="flex-1 relative bg-black flex flex-col overflow-hidden min-h-0"
                   >
                     <div className="flex-1 relative w-full flex items-center justify-center overflow-hidden min-h-0">
+                      
+                      {/* Prev/Next Gallery Navigation Buttons */}
+                      {lightboxData.images.length > 1 && (
+                        <>
+                          <button 
+                            onClick={(e) => { e.stopPropagation(); setLightboxData(prev => prev ? { ...prev, index: (prev.index - 1 + prev.images.length) % prev.images.length } : prev) }}
+                            className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 z-40 w-12 h-12 rounded-full bg-black/50 text-white hover:bg-[#C89B3C] hover:text-black transition-colors border border-white/20 hover:border-[#C89B3C] shadow-2xl flex items-center justify-center cursor-pointer"
+                          >
+                            <ChevronLeft size={28} />
+                          </button>
+                          <button 
+                            onClick={(e) => { e.stopPropagation(); setLightboxData(prev => prev ? { ...prev, index: (prev.index + 1) % prev.images.length } : prev) }}
+                            className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 z-40 w-12 h-12 rounded-full bg-black/50 text-white hover:bg-[#C89B3C] hover:text-black transition-colors border border-white/20 hover:border-[#C89B3C] shadow-2xl flex items-center justify-center cursor-pointer"
+                          >
+                            <ChevronRight size={28} />
+                          </button>
+                        </>
+                      )}
+
+                      {/* Important: Key the TransformWrapper so it resets zoom state when image changes */}
                       <TransformWrapper
+                        key={lightboxData.index}
                         initialScale={1}
                         minScale={1}
                         maxScale={8}
@@ -646,8 +700,8 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                             >
                               <div className="w-full h-full flex items-center justify-center p-4 md:p-12 cursor-grab active:cursor-grabbing">
                                 <ImageWithFallback
-                                  src={lightboxImage.url}
-                                  alt={lightboxImage.caption || "Tư liệu sắc nét"}
+                                  src={lightboxData.images[lightboxData.index].url}
+                                  alt={lightboxData.images[lightboxData.index].caption || "Tư liệu sắc nét"}
                                   className="max-w-full max-h-full object-contain drop-shadow-2xl select-none pointer-events-none"
                                 />
                               </div>
@@ -658,16 +712,16 @@ export function DetailModal({ isOpen, onClose, panelIndex }: DetailModalProps) {
                     </div>
 
                     {/* Caption Footer */}
-                    {(lightboxImage.caption || lightboxImage.source) && (
+                    {(lightboxData.images[lightboxData.index].caption || lightboxData.images[lightboxData.index].source) && (
                       <div className="w-full bg-black/95 border-t border-white/10 px-6 py-4 text-center shrink-0 z-30 shadow-[0_-10px_40px_rgba(0,0,0,0.5)]">
-                        {lightboxImage.caption && (
+                        {lightboxData.images[lightboxData.index].caption && (
                           <p className="text-sm sm:text-base text-white/90 font-medium max-w-4xl mx-auto">
-                            {lightboxImage.caption}
+                            {lightboxData.images[lightboxData.index].caption}
                           </p>
                         )}
-                        {lightboxImage.source && (
+                        {lightboxData.images[lightboxData.index].source && (
                           <p className="text-xs sm:text-sm text-[#C89B3C]/70 italic mt-1.5 max-w-4xl mx-auto">
-                            {renderTextWithLinks(lightboxImage.source)}
+                            {renderTextWithLinks(lightboxData.images[lightboxData.index].source)}
                           </p>
                         )}
                       </div>

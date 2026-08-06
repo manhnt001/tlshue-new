@@ -9,5 +9,126 @@
   "gallery": [
     "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  ],
+  "slides": [
+    {
+      "adminTitle": "A4",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "# ***Những năm đầu đất nước được thống nhất***\n\n***Ngày 26/3/1975,*** Thừa Thiên Huế được giải phóng hoàn toàn, góp phần quan trọng vào công cuộc giải phóng miền Nam, thống nhất Tổ Quốc, cùng cả nước xây dựng chủ nghĩa xã hội.\n\nNhững ngày đầu tháng 3/1975, sau khi giải phóng Buôn Ma Thuột, Bộ Chính trị quyết định mở chiến dịch Huế - Đà Nẵng với mục tiêu giải phóng Huế và Đà Nẵng. Quân khu Trị Thiên đã lên kế hoạch giải phóng Huế với các mũi tấn công từ phía Tây Nam và Tây Bắc, nhằm chia cắt và làm rối loạn phòng tuyến địch."
+        },
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835895/A4_hzsjwn.jpg"
+          ],
+          "caption": "Trong ảnh, Bộ Chỉ huy chiến dịch họp bàn kế hoạch giải phóng Huế năm 1975.",
+          "source": "Nguồn: https://vnexpress.net/co-do-hue-nhung-ngay-giai-phong-50-nam-truoc-4865641.html"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A4-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\nNhân dân quận 2 thành phố Huế mít tinh tuần hành chào mừng chiến thắng.\n\n*Nguồn: Trung tâm Lưu trữ quốc gia III.*"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A45",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835906/a45_pj2lny.jpg"
+          ],
+          "caption": "Quyết định số 167-CP ngày 20/8/1975 của Thường vụ Hội đồng Chính phủ về công tác chỉ đạo và quản lý tại tỉnh Quảng Trị và Thừa Thiên Huế. ",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A5",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835899/A5_bjfwlr.jpg"
+          ],
+          "caption": "Phân định các đơn vị địa lý hành chính cấp tỉnh, tháng 12/1975.",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III, phông Văn phòng Chính phủ."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A5-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\n**1976:** Sau giải phóng miền Nam thống nhất đất nước, tháng 02/1976 Chính phủ Cách mạng Lâm thời Cộng hòa miền Nam Việt Nam ban hành Nghị định sáp nhập các tỉnh Quảng Bình, Quảng Trị, Thừa Thiên và Khu vực Vĩnh Linh thành tỉnh Bình Trị Thiên, tỉnh lị đặt tại thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A26",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835907/A26_ogzjhj.jpg"
+          ],
+          "caption": " Chỉ thị số 293/CT-TU ngày 15/4/1976 v/v hoàn thành hợp tỉnh Quảng Bình - Quảng Trị - Thừa Thiên.",
+          "source": "Nguồn: Trung tâm Lưu trữ thành phố Huế"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A26-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "Đến ngày 15/4/1976, việc hợp nhất tỉnh hoàn thành. Thành phố Huế là tỉnh lỵ của tỉnh Bình Trị Thiên có 17 phường, xã."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A26-2",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\n**1981**: Ngày 11/9/1981, Hội đồng Bộ trưởng ban hành Quyết định 64-HĐBT, theo đó sáp nhập các xã, thôn vào thành phố Huế. Sau khi điều chỉnh địa giới hành chính, thành phố Huế có **10 phường** và **23 xã.**"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A42",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835898/a42-1_dfcwl1.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835898/a42-2_hlybnq.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836009/C31_wwdzmk.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836010/C21._ic6wdg.jpg"
+            ]
+          ],
+          "caption": "Quyết định 64-HĐBT ngày 11/9/1981 của Hội đồng Bộ trưởng quy định v/v điều chỉnh và phân vạch lại địa giới hành chính tại tỉnh Bình Trị Thiên (nay là Thừa Thiên Huế và Quảng Trị).",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III.\n"
+        }
+      ]
+    },
+    {
+      "adminTitle": "A42-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\nThành phố Huế được mở rộng có quy mô lớn nhất từ trước đến bấy giờ. “Thành phố Huế sau khi mở rộng bao gồm các phường Thuận Thành, Thuận Lộc, Thuận Hòa, Tây Lộc, Phú Thuận, Phú Hòa, Phú Cát, Phú Hiệp, Vĩnh Lợi, Vĩnh Ninh và các xã Thủy Trường, Thủy Phước, Thủy Xuân, Xuân Long, Hương Hải, Hương Phong, Hương Vinh, Hương Sơ, Hương Long, Hương Bình, Hương Thọ, Thủy bằng, Thủy Biều, Thủy An, Thủy Dương, Phú Thượng, Phú Dương, Phú Mậu, Phú Thanh, Phú Tân, Thủy Phú (gồm cả xóm Đông Giáp), Hương Lưu (gồm cả xóm Cồn Trâu và xóm Cổ Thành), Hương Hồ (gồm cả các thôn Thanh Chữ, Cổ Bưu, An Lưu, Bồn Trì, Bồn Phổ).”\n\n**Trích: Quyết định 64-HĐBT** ngày 11/9/1981 của Hội đồng Bộ trưởng quy định v/v điều chỉnh và phân vạch lại địa giới hành chính tại tỉnh Bình Trị Thiên (nay là Thừa Thiên Huế và Quảng Trị).\n\n*Nguồn: Trung tâm Lưu trữ quốc gia III.*"
+        }
+      ]
+    }
   ]
 }

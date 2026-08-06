@@ -81,7 +81,7 @@ ${captionHtml}
       const content = headingMatch[2];
       const sizes = ['text-3xl', 'text-2xl', 'text-xl', 'text-lg', 'text-base', 'text-sm'];
       const sizeClass = sizes[level - 1] || 'text-base';
-      parsedHtml += `<h${level} class="${sizeClass} font-serif font-bold text-[#C89B3C] mt-5 mb-3">${content}</h${level}>\n`;
+      parsedHtml += `<h${level} class="${sizeClass} font-sans font-bold text-[#C89B3C] mt-5 mb-3 [&_em]:not-italic [&_i]:not-italic">${content}</h${level}>\n`;
       continue;
     }
 
@@ -129,6 +129,9 @@ ${captionHtml}
   }
 
   closeTags();
+
+  // Xử lý các ký tự escape của Markdown (VD: \* -> *, \_ -> _)
+  parsedHtml = parsedHtml.replace(/\\([\\`*_{}[\]()#+\-.!])/g, '$1');
 
   return parsedHtml.trim();
 }

@@ -6,8 +6,155 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835189/4.4_tfxx6x.jpg"
   ],
   "description": "Sự kết nối và lan tỏa giá trị di sản Cố đô Huế đến với bạn bè quốc tế.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1621886292650-520f76c747d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "C17",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Trung tâm giám sát điều hành đô thị thông minh thuộc Sở Khoa học và Công nghệ thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836008/C17_qyd1qg.jpg"
+            ]
+          ]
+        },
+        {
+          "type": "text_block",
+          "content": "Trung tâm Giám sát, điều hành đô thị thông minh (IOC) đóng vai trò là “bộ não số” của đô thị, nơi tích hợp dữ liệu, công nghệ và con người để hỗ trợ công tác quản lý, điều hành một cách kịp thời, chính xác và hiệu quả. Trung tâm ứng dụng các nền tảng công nghệ hiện đại như dữ liệu lớn, trí tuệ nhân tạo, bản đồ số và hệ thống camera giám sát nhằm theo dõi toàn diện các hoạt động kinh tế – xã hội, an ninh trật tự, hạ tầng đô thị và chất lượng môi trường.\n\n*Nguồn: <https://dttm.hue.gov.vn/slide/dich-vu-do-thi-thong-minh.html>*"
+        }
+      ]
+    },
+    {
+      "adminTitle": "C14",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Báo cáo số 330/BC-UBND ngày 19/6/2026 của UBND thành phố Huế v/v tình hình thực hiện công tác cải cách hành chính 06 tháng đầu năm 2026.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835946/1_ixxpkh.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835953/2_lm6ibn.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835951/3_fpxvqb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835953/4_hu0ff1.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835951/5_xjxvpi.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835954/6_oa8htx.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835952/7_r9erw9.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835954/8_drvaz4.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835953/9_jdglva.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835949/10_uf1lm7.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835949/11_azoepw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835948/12_vrzgvw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835947/13_bfwlx9.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835947/14_jrm02u.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835950/15_n8zsdq.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835948/16_qc7swy.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835949/17_krg9aw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835951/18_vkmmbq.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835949/19_ktnrby.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C10",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 2367/QĐ-UBND ngày 08/7/2026 của UBND thành phố Huế v/v  công bố danh mục thủ tục hành chính mới ban hành và phê duyệt quy trình nội bộ, quy trình điện tử thực hiện theo cơ chế một cửa, một cửa liên thông lĩnh vực Việc làm thuộc phạm vi chức năng quản lý của Sở Nội vụ.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835941/1_syw16s.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835944/2_cy7pgx.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835943/3_hel3fp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835943/4_psbpuf.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835945/5_pviuh0.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835945/6_lp2jpm.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835944/7_oxrp8y.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835944/8_wctstc.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835944/9_wzl44j.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835940/10_q6y4in.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835941/11_rfe7jt.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835942/12_iam3vo.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835942/13_q5a1wm.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835940/14_xucpek.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835941/15_j4t9bc.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835942/16_hgodsz.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835942/17_botahw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835942/18_awfeyk.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C11",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 2391/QĐ-UBND ngày 09/7/2026 của UBND thành phố Huế v/v công bố danh mục thủ tục hành chính mới ban hành trong lĩnh vực vật liệu xây dựng thuộc thẩm quyền giải quyết của Sở Xây dựng.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835947/1_fhvtkk.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835945/2_vygi6o.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835946/3_kpy2ld.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C11-2",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\nQuá trình hình thành và hoàn thiện tổ chức chính quyền địa phương qua các thời kỳ đã tạo nền tảng cho sự phát triển của Huế. Bước vào giai đoạn mới với vị thế thành phố trực thuộc Trung ương, việc tiếp tục đổi mới mô hình tổ chức và nâng cao hiệu lực quản lý sẽ là động lực quan trọng để Huế phát huy giá trị di sản, xây dựng nền hành chính hiện đại và phát triển bền vững."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B17",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Thành phố Huế.",
+          "source": "Nguồn: Cổng Thông tin điện tử thành phố Huế\n",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836008/B17_gjeezn.png"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C27",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Cầu Tràng Tiền và trung tâm thành phố Huế - biểu tượng cảnh quan và đời sống đô thị.",
+          "source": "Ảnh: Lê Hoàng.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836009/C27_x9zebf.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C27-2",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\n**Định hướng đến năm 2045:** “Xây dựng chính quyền số, kinh tế số, xã hội số hiện đại, minh bạch, hiệu quả, đưa hoạt động quản lý, chỉ đạo, điều hành của tổ chức, cơ quan Đảng, nhà nước lên môi trường số, dựa trên dữ liệu; cung cấp dịch vụ công trực tuyến toàn trình, tiện ích số thuận lợi cho người dân, doanh nghiệp, tạo đột phá trong cải cách hành chính, quản trị công và phát triển bền vững - theo Kế hoạch số 295-KH/TU ngày 30/6/2025 của Thành ủy Huế ban hành Kế hoạch hành động thực hiện Nghị quyết 57-NQ/TW”.\n\n*Trích: Quyết định số 465 /QĐ-UBND ngày 28/01/2026 của UBND thành phố Huế v/v phê duyệt Đề án Phát triển đô thị thông minh thành phố Huế giai đoạn 2026-2030, định hướng đến năm 2045.*"
+        }
+      ]
+    }
   ]
 }

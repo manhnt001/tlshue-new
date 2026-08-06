@@ -6,8 +6,145 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835189/4.1_c1txpv.jpg"
   ],
   "description": "Di sản văn hóa phi vật thể của nhân loại - Âm nhạc của sự thanh cao và bác học.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1621886292650-520f76c747d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "P3-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "## **Hoàn thiện tổ chức bộ máy chính quyền**\n\nBước vào giai đoạn mới, Huế từng bước kiện toàn tổ chức bộ máy chính quyền theo hướng tinh gọn, hiệu lực, hiệu quả; phân định rõ chức năng, nhiệm vụ, đáp ứng yêu cầu quản lý và phát triển của địa phương qua từng giai đoạn."
+        }
+      ]
+    },
+    {
+      "adminTitle": "C7",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786006335/c7-1_wjlz3h.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786006335/c7-2_cpshdk.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786006335/c7-3_v3cxyp.jpg"
+            ]
+          ],
+          "caption": "Quyết định số 540 QĐ/UB ngày 26/4/1988 của UBND tỉnh Bình Trị Thiên v/v sắp xếp tổ chức bộ máy các cơ quan chuyên môn và đơn vị sự nghiệp thuộc UBND tỉnh.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "C6",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 709 QĐ/UB ngày 15/6/1988 của UBND tỉnh Bình Trị Thiên v/v chuẩn y tổ chức bộ máy các cơ quan chuyên môn thuộc UBND.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835923/c6-1_pr9wen.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835927/c6-2_oqryc0.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C6-2",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835922/c6.2_mm0biq.jpg"
+            ]
+          ],
+          "caption": "Sơ đồ bộ máy các cơ quan chuyên môn thuộc UBND tỉnh Bình Trị Thiên"
+        }
+      ]
+    },
+    {
+      "adminTitle": "D1",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835932/d1-01_ansksw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835932/d1-06_ygazwz.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835928/d1-09_faoedv.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835917/d1-10_rj5hxl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835918/d1-12_twqdc0.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835918/d1-15_dp381f.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835919/d1-16_rlmvtz.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835919/d1-17_gqgxj9.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835932/d1-20_g0lxl4.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835932/d1-22_awdoiv.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835934/d1-24_mwnimd.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835934/d1-26_tccdnh.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835933/d1-28_qrncgy.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835935/d1-310_rfg3q9.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835935/d1-31_c4hkhs.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835936/d1-33_ecrh1p.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835937/d1-35_usei31.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835937/d1-38_fjsaxp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835937/d1-40_nyhrkx.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835937/d1-43_ea2ifo.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835938/d1-76_resz2s.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835937/d1-84_vphofd.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835939/d1-TL_kapuqe.jpg"
+            ]
+          ],
+          "caption": "Một số quyết định của UBND tỉnh Thừa Thiên Huế v/v thành lập các ban, ngành cấp tỉnh năm 1989-1990"
+        }
+      ]
+    },
+    {
+      "adminTitle": "C1",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 139-QĐ ngày 07/02/1990 của UBND tỉnh Thừa Thiên Huế v/v thành lập Sở Tư pháp và bổ nhiệm cán bộ lãnh đạo Sở.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835924/c1_v6xvdg.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C8",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 139/QĐ-UB ngày 01/02/1991 của UBND tỉnh Thừa Thiên Huế v/v quy định chức năng nhiệm vụ, quyền hạn và cơ cấu tổ chức và hoạt động của Ban Tổ chức Chính quyền tỉnh.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007415/C8_i6kvue.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C2",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 1046/QĐ-UBND ngày 29/7/1994 của UBND tỉnh Thừa Thiên Huế v/v sắp xếp tổ chức bộ máy các Ban, đơn vị hành chính - sự nghiệp thuộc Uỷ ban nhân dân thành phố Huế.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007659/c2-1_epo708.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007661/c2-2_sqvtde.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007661/c2-3_p0zpau.jpg"
+            ]
+          ]
+        }
+      ]
+    }
   ]
 }

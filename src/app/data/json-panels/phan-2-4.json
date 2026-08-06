@@ -6,8 +6,161 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835188/3.4_wrhqp1.jpg"
   ],
   "description": "Những thú vui tao nhã của bậc đế vương như thưởng trà, chơi cờ, ngắm hoa, làm thơ.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "B12",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835920/B12_le1f6h.jpg"
+            ]
+          ],
+          "source": "Nguồn: https://xaydungchinhsach.chinhphu.vn/",
+          "caption": "Phó Chủ tịch Quốc hội Nguyễn Khắc Định điều hành phiên họp tại Kỳ họp thứ 8, Quốc hội khóa XV về thành lập thành phố Huế trực thuộc Trung ương."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B14",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Ủy viên Ủy ban Thường vụ Quốc hội, Chủ nhiệm Ủy ban Pháp luật Hoàng Thanh Tùng trình bày Báo cáo giải trình, tiếp thu, chỉnh lý dự thảo Nghị quyết v/v thành lập thành phố Huế trực thuộc Trung ương.",
+          "source": "Nguồn: https://xaydungchinhsach.chinhphu.vn/",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835927/B14_f4smu8.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B16",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Sáng 30/11/2024, vào lúc 8 giờ 26 phút, tại Kỳ họp thứ 8, Quốc hội khóa XV, Quốc hội đã biểu quyết thông qua Nghị quyết thành lập thành phố Huế trực thuộc Trung ương với tỷ lệ 95,62% phiếu tán thành.",
+          "source": "Nguồn: https://hue.gov.vn/Chuyen-trang",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835900/B16_axm8fs.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B15",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quốc hội đã chính thức thông qua Nghị quyết thành lập thành phố Huế trực thuộc Trung ương với tỷ lệ tán thành rất cao.",
+          "source": "Nguồn: https://xaydungchinhsach.chinhphu.vn/",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835921/B15_yccqdp.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B15-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "Thành phố Huế trực thuộc Trung ương là dấu mốc quan trọng trong quá trình phát triển của vùng đất Cố đô, tạo nền tảng phát huy giá trị di sản, nâng cao hiệu quả quản lý đô thị và thúc đẩy Huế phát triển nhanh, bền vững, trở thành trung tâm lớn về văn hóa, du lịch, y tế, khoa học, công nghệ và giáo dục của cả nước và khu vực."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B18",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Bản đồ thành lập thành phố Huế trực thuộc Trung ương.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835908/B18_pdt6ez.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "A8",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Huế về đêm.",
+          "source": "Nguồn: Internet",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835902/A8_bbtui0.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "A7",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Nghị quyết số 1675/NQ-UBTVQH15 ngày 16/6/2025 v/v sắp xếp các đơn vị hành chính cấp xã của thành phố Huế năm 2025.",
+          "source": "Nguồn: Trung tâm Lưu trữ Huế",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835915/a7-1_gbusge.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835916/a7-2_r7vjoo.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835924/a7-3_gyxdhi.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835915/a7-4_di9wtb.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "A7-2",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835919/a7.2_bikmyp.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B20",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Bản đồ sắp xếp các đơn vị hành chính cấp xã của thành phố Huế năm 2025.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835908/B20_udtt3l.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B20-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\nViệc triển khai mô hình chính quyền địa phương hai cấp đánh dấu bước đổi mới trong tổ chức bộ máy của thành phố Huế, hướng tới nền hành chính tinh gọn, hiệu lực, hiệu quả; tăng cường phân cấp, phân quyền và nâng cao chất lượng phục vụ người dân, doanh nghiệp."
+        }
+      ]
+    }
   ]
 }

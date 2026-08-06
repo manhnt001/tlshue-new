@@ -6,8 +6,168 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835188/4.2_dnzevq.jpg"
   ],
   "description": "Các nghi lễ trọng đại và tín ngưỡng tâm linh được bảo tồn nguyên vẹn qua hàng thế kỷ.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "C3",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 1911/QĐ-UB ngày 05/8/1997 của UBND tỉnh Thừa Thiên Huế v/v qui định chức năng, nhiệm vụ, quyền hạn và tổ chức bộ máy của Ban Tổ chức chính quyền tỉnh.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007973/c3-1_ik29t6.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007974/c3-2_kyle78.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007974/c3-3_btpetx.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786007974/c3-4_vdiwlc.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "D3",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 222/1998/QĐ/UBND ngày 14/02/1998 của UBND tỉnh Thừa Thiên Huế v/v thành lập và quy định chức năng nhiệm vụ, tổ chức bộ máy của sở Ngoại vụ tỉnh Thừa Thiên Huế.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835939/d3-1_p0ucme.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835938/d3-2_t8vkdg.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835938/d3-3_vkj5uv.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C5",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 1522/QĐ-UB ngày 05/6/2003 của UBND tỉnh Thừa Thiên Huế v/v quy định chức năng, nhiệm vụ và tổ chức bộ máy của Văn phòng HĐND và UBND tỉnh.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786008281/c5-1_sdof2q.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786008281/c5-2_yuxma2.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786008281/c5-3_l3ghqi.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786008281/c5-4_gbvrzl.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C5-2",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786008747/c5.2_vbpkkh.jpg"
+            ]
+          ],
+          "caption": "Sơ đồ tổ chức bộ máy của Văn phòng."
+        }
+      ]
+    },
+    {
+      "adminTitle": "D4",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 1861/2003/QĐ-UB ngày 08/7/2003 của UBND tỉnh Thừa Thiên Huế v/v thành lập Sở Tài nguyên và Môi trường.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835939/d4-1_s2pprt.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835938/d4-2_kg4eog.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C4",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 3565/QĐ-UB ngày 11/12/2003 của UBND tỉnh Thừa Thiên Huế v/v đổi tên Ban Tổ chức Chính quyền tỉnh thành Sở Nội vụ.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835908/c4_fpytap.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "D5",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 3288/2004/QĐ-UB ngày 22/9/2004 của UBND tỉnh Thừa Thiên Huế v/v thành lập Sở Bưu chính, Viễn thông.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835939/d5_vkpc1m.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C26",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "rụ sở HĐND và UBND tỉnh Thừa Thiên Huế",
+          "source": "Ảnh: UBND tỉnh Thừa Thiên Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835901/C26_da95cn.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B11",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Nghị quyết số 12/NĐ-HĐND ngày 26/02/2025 của Hội đồng nhân dân thành phố Huế v/v thành lập và tổ chức lại các cơ quan chuyên môn  thuộc UBND TP Huế.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835908/B11-1_qmibxp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835907/B11-2_wsq4nl.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B11-2",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\nTháng 02/2025, UBND thành phố Huế kiện toàn cơ cấu tổ chức với 14 cơ quan chuyên môn trực thuộc, gồm 12 sở, Văn phòng UBND thành phố và Thanh tra thành phố. Cơ cấu này được sắp xếp theo hướng tinh gọn, giảm đầu mối, tăng cường phối hợp liên ngành, góp phần nâng cao hiệu lực, hiệu quả quản lý nhà nước, đáp ứng yêu cầu xây dựng nền hành chính hiện đại, phục vụ người dân và doanh nghiệp, đồng thời tạo nền tảng cho sự phát triển của thành phố Huế trong giai đoạn mới."
+        },
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786009109/b11.2_kj4frg.jpg"
+            ]
+          ]
+        }
+      ]
+    }
   ]
 }

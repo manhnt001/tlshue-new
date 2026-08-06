@@ -9,5 +9,151 @@
   "gallery": [
     "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  ],
+  "slides": [
+    {
+      "adminTitle": "A47",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "Nghị quyết của Quốc hội nước CHXHCN Việt Nam tại kì họp thứ 5 Quốc hội khóa VIII tách tỉnh Bình Trị Thiên để tái lập các tỉnh Quảng Bình, Quảng Trị và Thừa Thiên - Huế. \n\nTỉnh Thừa Thiên - Huế gồm **5 đơn vị hành chính**: \n\n* Thành phố Huế;\n* Huyện Hương Phú, \n* Huyện Hương Điền, \n* Huyện Phú Lộc và \n* Huyện A Lưới."
+        },
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835903/a47-1_nkiing.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835905/a47-2_u9cmwb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835906/a47-3_ptiynr.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B6",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835911/b6-1_zgsvrb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835911/b6-2_bwc3gb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835911/b6-3_zforil.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835910/b6-4_bdv7mo.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835904/b6-5_kcb7r3.jpg"
+            ]
+          ],
+          "caption": "Báo cáo số 102-TC/CQ ngày 5/11/1990 của Ban TCCQ tỉnh Thừa Thiên Huế v/v báo cáo thực hiện Quyết định số 345/HĐBT ngày 29 tháng 9 năm 1990 của HĐBT về điều chỉnh địa giới các huyện và thành phố Huế.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B2",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\n**1992:** Quyết định số 355-CT công nhận thành phố Huế thuộc tỉnh Thừa Thiên-  Huế là Đô thị loại II."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B3",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835923/b3-1_rj8645.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835928/b3-2_jxknr8.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835916/b3-3_migecf.jpg"
+            ]
+          ],
+          "caption": "Nghị định số 80/CP ngày 22/11/1995 của Chính phủ v/v phân chia phường Vĩnh Lợi thuộc thành phố Huế thành 2 phường là Phú Nhuận và Phú Hội, chia phường Phú Hiệp thành 2 phường Phú Hiệp và Phú Hậu.",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A38",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835936/a38_itpkp8.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835916/a38-1_ovesgq.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835915/a38-2_ym9rum.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835910/a38-3_vjipjt.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835912/a38-4_kzyjmm.jpg"
+            ]
+          ],
+          "caption": "Bản đồ địa giới hành chính thành phố Huế năm 1998.",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B8",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835924/B8_tdlcca.jpg"
+            ]
+          ],
+          "caption": "Chương trình nghệ thuật trong Lễ bế mạc Festival Huế 2000.",
+          "source": "Ảnh: Trung tâm Festival.\nNguồn: https://huengaynay.vn/chinh-tri-xa-hoi/theo-dong-thoi-su/festival-hue-dau-tien-sau-con-lu-lich-su-1999-80075.html"
+        }
+      ]
+    },
+    {
+      "adminTitle": "B9",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835927/b9-1_iyv5pm.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835930/b9-2_kjsxez.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835930/b9-3_aoon4q.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835921/b9-4_usy5wx.jpg"
+            ]
+          ],
+          "caption": "Báo cáo tình hình tổ chức hoạt động của UBND các cấp tỉnh Thừa Thiên Huế, nhiệm kỳ 1999 -2004.",
+          "source": "https://hue.gov.vn/Trang-chu/He-thong-van-ban-phap-luat/type/cd/vb/14698"
+        }
+      ]
+    },
+    {
+      "adminTitle": "B7",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "**2005:** Ngày 24/8/2005 Thủ tướng Chính phủ ban hành Quyết định số 209/2005/QĐ-TTg nâng cấp thành phố Huế lên **Đô thị loại I.**"
+        },
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835924/b7_ofv3ky.jpg"
+            ]
+          ],
+          "caption": "Quyết định số 209/2005/QĐ-TTg nâng cấp thành phố Huế lên Đô thị loại I.",
+          "source": "Nguồn: Trung tâm Lưu trữ quốc gia III."
+        }
+      ]
+    },
+    {
+      "adminTitle": "B7-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\n*Thành phố Huế là trung tâm chính trị, kinh tế, văn hoá, khoa học kỹ thuật, du lịch, dịch vụ, đầu mối giao thông, giao lưu trong nước và quốc tế có vai trò thúc đẩy sự phát triển kinh tế - xã hội của địa phương, khu vực.*\n\nSau nhiều lần chia tách, sáp nhập, tỉnh Thừa Thiên - Huế gồm:\n\n* 01 thành phố Huế có: 36 đơn vị trực thuộc (29 phường, 7 xã);\n* 02 thị xã là Hương Trà, Hương Thủy;\n* 06 huyện: A Lưới, Nam Đông, Phong Điền, Phú Lộc, Phú Vang, Quảng Điền."
+        }
+      ]
+    }
   ]
 }

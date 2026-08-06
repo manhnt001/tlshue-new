@@ -6,8 +6,332 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835189/4.3_dkn2p3.jpg"
   ],
   "description": "Nỗ lực ứng dụng công nghệ số và các biện pháp trùng tu để gìn giữ Di sản Huế cho thế hệ tương lai.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1606625379124-3882167b827b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "P3-3",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "## **Hiện đại hóa nền hành chính phụng sự nhân dân**\n\n\n\nCùng với việc hoàn thiện tổ chức bộ máy, Huế đẩy mạnh cải cách hành chính, ứng dụng công nghệ số, xây dựng chính quyền hiện đại, công khai, minh bạch, lấy người dân và doanh nghiệp làm trung tâm phục vụ."
+        }
+      ]
+    },
+    {
+      "adminTitle": "c24",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Kế hoạch số 14/KH-UBND ngày 28/01/2010 của UBND tỉnh Thừa Thiên Huế về thực hiện công tác cải cách hành chính năm 2010.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835994/1_ssszs4.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835993/2_qvkx8v.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835995/3_ttoxbl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835993/4_lwav1d.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835994/5_oaxqtp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835995/6_gl6dim.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835996/7_jq5ih7.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835996/8_minrqi.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C30",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835999/1_v2iliy.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835997/2_ytiacq.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835998/3_lizuuc.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835997/4_jk3aru.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835999/5_wh2j6v.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836000/6_bwsheg.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835999/7_ewfsit.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835998/8_pwkhqh.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836001/9_f61ey4.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835996/10_bucuno.jpg"
+            ]
+          ],
+          "caption": "Báo cáo số 131/BC-UBND ngày 24/12/2010 của UBND tỉnh Thừa Thiên Huế về công tác cải cách hành chính năm 2010.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "C23",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Báo cáo số 445/BC-UBND ngày 07/12/2020 của UBND tỉnh Thừa Thiên Huế về công tác cải cách hành chính năm 2020.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011009/1_ofyns8.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/2_bf93ht.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/3_rqp0dv.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/4_qfu5uo.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/5_uca5px.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/6_o3q86q.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/7_vwcfat.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/8_kltmr8.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011012/9_lmdbbw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011009/10_zzkiyk.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011009/11_nxwukl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011009/12_oiydif.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/13_jc3x0y.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/14_s0cur1.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/15_ajzzkp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011009/16_nnoxos.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011009/17_apqqaw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/18_qpr8zm.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/19_fzkxvs.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011010/20_caz3l5.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/21_mohnmh.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1786011011/22_ehztb5.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C23-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "\n\nLễ trao giải hội thi trực tuyến “Tìm hiểu công tác cải cách hành chính tỉnh Thừa Thiên Huế năm 2024”, đợt 1 từ 17-22/6/2024."
+        }
+      ]
+    },
+    {
+      "adminTitle": "C20",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 3322/QĐ-UBND ngày 25/12/2024 của UBND tỉnh Thừa Thiên Huế v/v phê duyệt Kế hoạch cải cách hành chính gắn với chính quyền số dịch vụ đô thị thông minh, năm 2025.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835962/1_jkiyiw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835967/2_ebzjlo.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835971/3_ozk8ml.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835972/4_iq4d3e.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835975/5_vh66qh.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835975/6_tg308k.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835973/7_vi4kkz.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835975/8_bt9lyt.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835975/9_eerlrd.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835964/10_qhvmnl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835962/11_vox5ko.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835968/12_p7depz.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835964/13_vimcow.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835964/14_jeu4vp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835966/15_nnebkz.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835965/16_unwvag.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835967/17_flgunc.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835970/18_axloy5.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835968/19_a0cau0.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835971/20_pbbx12.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835968/21_puymkl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835970/22_a8qpy1.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835973/23_mvihyd.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835972/24_nvmc0g.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835970/25_yy5fyd.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C9",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 3803 /QĐ-UBND ngày 15/12/2025 của UBND thành phố Huế v/v phê duyệt Kế hoạch cải cách hành chính gắn với chuyển đổi số trong cơ quan nhà nước của thành phố Huế năm 2026.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836001/1_xbpqyn.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836003/2_upg5fp.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836007/3_ruahkk.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836008/4_wvzc4r.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836005/5_xzwivu.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836006/6_patt58.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836007/7_nw2chs.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836009/8_a2ecjy.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836008/9_p389qu.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836000/10_ylvozf.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836001/11_pk0uad.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836002/12_qtpa0b.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836003/13_ckhfqg.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836001/14_i4xl5q.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836002/15_kmkjze.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836003/16_v6tkez.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836002/17_j1ccol.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836003/18_xhn606.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836004/19_i5vkdl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836004/20_knsrzf.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836004/21_emesdl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836005/22_mla0e0.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836004/23_mbgu06.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836005/24_wcgcgy.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836005/25_qekja1.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C22",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Báo cáo số 678/BC-UBND ngày 19/12/2025 của UBND thành phố Huế về tình hình thực hiện công tác cải cách hành chính năm 2025.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835975/1_gcmyum.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835982/2_ltl77q.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835986/3_omfveu.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835991/4_yu6hyi.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835991/5_lcw9wt.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835990/6_r7xoq9.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835992/7_mgsjqc.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835994/8_dnntym.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835995/9_vjbmk4.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835978/10_tpgy3s.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835977/11_q1lqer.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835978/12_cbnxqb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835978/13_n9sbhc.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835976/14_kv4o7q.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835978/15_srr0oh.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835978/16_qchbg1.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835979/17_axui3u.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835979/18_d9zuwd.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835981/19_kfvjjb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835982/20_srld4h.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835981/21_ktyoox.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835984/22_qfw0eb.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835981/23_utcpcf.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835984/24_mn64cr.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835983/25_zpld6m.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835985/26_hlk1qs.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835986/27_m3jpix.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835987/28_eytqxv.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835984/29_kgwpan.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835986/30_e4tms0.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835988/31_rhcnyx.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835988/32_tmdous.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835987/33_e4595f.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835991/34_b3nfz8.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835989/35_gugl1g.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835990/36_uqiruf.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835989/37_xcifeu.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835991/38_mtc64s.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C31",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836009/C31_wwdzmk.jpg"
+            ]
+          ],
+          "caption": "Năm 2025, thành phố Huế đạt 91,33 điểm Chỉ số cải cách hành chính, cao nhất kể từ năm 2016.",
+          "source": "Nguồn: https://huengaynay.vn/chinh-tri-xa-hoi/theo-dong-thoi-su"
+        }
+      ]
+    },
+    {
+      "adminTitle": "C32",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Thành phố Huế xếp thứ 5 cả nước về Chỉ số hài lòng của người dân đối với sự phục vụ của cơ quan hành chính Nhà nước năm 2025 theo công bố của Bộ Nội vụ",
+          "source": "Nguồn: https://huengaynay.vn/chinh-tri-xa-hoi/theo-dong-thoi-su",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836009/C32_mgpz7v.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C21",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Trung tâm phục vụ hành chính công thành phố Huế.",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785836010/C21._ic6wdg.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C16",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Trung tâm dữ liệu",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835962/1_lsm2jm.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835964/2_lepjwl.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "C15",
+      "blocks": [
+        {
+          "type": "image_block",
+          "caption": "Quyết định số 465 /QĐ-UBND ngày 28/01/2026 của UBND thành phố Huế v/v phê duyệt Đề án Phát triển đô thị thông minh thành phố Huế giai đoạn 2026-2030, định hướng đến năm 2045",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835957/2_zy8cta.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835958/3_ffdhlw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835959/4_mcc8ci.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835960/5_sgebo4.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835961/6_iyumst.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835961/7_m1mcxg.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835961/8_uwa2pl.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835963/9_nnmcti.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835954/1_xny48f.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835956/10_qwdcgu.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835954/11_bd0rhf.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835956/12_xxtsci.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835956/13_k5eebw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835956/14_iiw2t8.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835955/15_c6venv.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835955/16_uxiazy.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835956/17_ryujan.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835957/18_i94513.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835959/19_vnpgsw.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835961/20_ojgw2r.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835960/21_kpmv7d.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835960/22_zhzwxj.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835958/23_shlyeu.jpg"
+            ]
+          ]
+        }
+      ]
+    }
   ]
 }

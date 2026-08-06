@@ -6,8 +6,90 @@
     "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835187/3.3_wtpqyo.jpg"
   ],
   "description": "Tinh hoa ẩm thực Huế qua những món ăn ngự thiện cầu kỳ, tinh tế mang đậm triết lý âm dương ngũ hành.",
-  "gallery": [
-    "https://images.unsplash.com/photo-1621886292650-520f76c747d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    "https://images.unsplash.com/photo-1664333039578-28ad613ee536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+  "gallery": [],
+  "slides": [
+    {
+      "adminTitle": "62",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835900/62_webmiz.jpg"
+            ]
+          ],
+          "caption": "Nghị quyết số 05/2009/NQBT-HĐND ngày 11/11/2009 của HĐND thành phố Huế v/v thông qua Đề án thành lập các phường: Hương Long, Thủy Xuân, Thủy Biều.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A49",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835913/a49_ursgnn.jpg"
+            ]
+          ],
+          "caption": "Bản đồ địa giới hành chính tỉnh Thừa Thiên Huế năm 2023.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A49-1",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835901/a49.2_yhov3r.jpg"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "adminTitle": "B19",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835902/B19_g48kaz.jpg"
+            ]
+          ],
+          "caption": "Bản đồ sắp xếp đơn vị hành chính cấp huyện, cấp xã giai đoạn 2023-2025.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A9",
+      "blocks": [
+        {
+          "type": "image_block",
+          "image": [
+            [
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835904/A9-1_shecvv.jpg",
+              "https://res.cloudinary.com/nt4z0zzq/image/upload/v1785835907/A9-2_tukjti.jpg"
+            ]
+          ],
+          "caption": "Nghị quyết số 175/2024/QH15 của Quốc hội v/v thành lập thành phố Huế trực thuộc trung ương năm 2024.",
+          "source": "Nguồn: Trung tâm Lưu trữ Thành phố Huế."
+        }
+      ]
+    },
+    {
+      "adminTitle": "A9-1",
+      "blocks": [
+        {
+          "type": "text_block",
+          "content": "Thành phố Huế là thành phố trực thuộc trung ương:\n\nDiện tích tự nhiên là **4.947,11 km2** \n\nQuy mô dân số là **1.236.393** người của tỉnh Thừa Thiên Huế."
+        }
+      ]
+    }
   ]
 }

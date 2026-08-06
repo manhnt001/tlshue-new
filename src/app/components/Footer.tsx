@@ -13,9 +13,22 @@ export function Footer() {
             <a href="#hero" className="flex items-center gap-2 mb-6 inline-flex group">
               <img src={logoImg} alt="Logo" className="h-16 w-auto object-contain" />
             </a>
-            {/* <p className="text-sm text-white/60 leading-relaxed mb-6 max-w-xs">
-              Dự án số hóa di sản văn hóa Huế, nhằm bảo tồn và lan tỏa giá trị lịch sử thông qua không gian triển lãm thực tế ảo tương tác.
-            </p> */}
+            {/* <div className="mb-8 flex flex-col gap-1.5">
+              <span className="text-xs font-medium tracking-[0.2em] text-[#C89B3C] uppercase">
+                Triển lãm trực tuyến
+              </span>
+              <span className="text-xl sm:text-2xl font-serif font-bold text-white/95 uppercase tracking-widest">
+                Thành phố Huế
+              </span>
+              <span className="text-sm sm:text-base font-serif italic text-white/60">
+                Qua tài liệu lưu trữ
+              </span>
+            </div> */}
+
+            <p className="text-sm text-white/60 leading-relaxed mb-6 max-w-xs">
+              Triển lãm trực tuyến thành phố Huế <br />
+              Qua tài liệu lưu trữ
+            </p>
           </div>
 
           {/* Center: Contact & Social */}

@@ -10,6 +10,7 @@ media_library:
     cloud_name: "nt4z0zzq"
     api_key: "895522284138286"
     multiple: true
+    max_files: 100
 
 collections:
   - name: "panels"
@@ -65,7 +66,10 @@ collections:
                 name: "image_block"
                 widget: "object"
                 fields:
-                  - { label: "URL Ảnh", name: "image", widget: "image" }
+                  - label: "Danh sách Ảnh (Thêm từng ảnh)"
+                    name: "image"
+                    widget: "list"
+                    field: { label: "Chọn Ảnh từ thư viện", name: "url", widget: "image" }
                   - { label: "Chú thích (caption)", name: "caption", widget: "string", required: false }
                   - { label: "Nguồn ảnh (source)", name: "source", widget: "text", required: false }
               
