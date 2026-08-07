@@ -48,8 +48,8 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="https://thiduayeunuoc.langson.gov.vn/360/"
-            target="_blank"
+            href="#"
+            // target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2.5 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
           >

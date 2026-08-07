@@ -93,7 +93,7 @@ export function GuideSection({ isPlaying, onPlay, onStop }: GuideSectionProps) {
               {isPlaying ? (
                 <div className="relative w-full h-full">
                   <iframe
-                    src="https://www.youtube.com/embed/xMlhKZVcBAM?autoplay=1"
+                    src=""
                     className="w-full h-full border-0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -111,7 +111,8 @@ export function GuideSection({ isPlaying, onPlay, onStop }: GuideSectionProps) {
                   </button>
                 </div>
               ) : (
-                <div className="w-full h-full relative" onClick={onPlay}>
+                // <div className="w-full h-full relative" onClick={onPlay}>
+                <div className="w-full h-full relative">
                   <ImageWithFallback
                     src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNldW0lMjBleGhpYml0aW9uJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3ODE1ODEyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080"
                     alt="Video hướng dẫn"

@@ -15,7 +15,7 @@ export function VirtualTourSection({ showTour, onPlay, onStop }: VirtualTourSect
   return (
     <section id="virtual-tour" className="py-24 relative bg-secondary text-secondary-foreground overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 relative z-10 mb-12 text-center max-w-3xl">
-        <SectionHeader 
+        <SectionHeader
           title="Tham Quan Triển Lãm Ảo"
           subtitle="Trải Nghiệm Tương Tác"
           align="center"
@@ -39,7 +39,7 @@ export function VirtualTourSection({ showTour, onPlay, onStop }: VirtualTourSect
           {showTour ? (
             <div className="relative w-full h-full">
               <iframe
-                src="https://thiduayeunuoc.langson.gov.vn/360/"
+                src=""
                 className="w-full h-full border-0 bg-black"
                 allowFullScreen
                 allow="gyroscope; accelerometer; magnetometer; vr"
@@ -54,7 +54,8 @@ export function VirtualTourSection({ showTour, onPlay, onStop }: VirtualTourSect
               </button>
             </div>
           ) : (
-            <div className="relative w-full h-full cursor-pointer" onClick={onPlay}>
+            // <div className="relative w-full h-full cursor-pointer" onClick={onPlay}></div>
+            <div className="relative w-full h-full">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1553851919-596510268b99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxIdWUlMjBWaWV0bmFtJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc4MTU4MTIwNXww&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Virtual Tour Hue"
